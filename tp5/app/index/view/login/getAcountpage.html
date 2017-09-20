@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>找回用户名</title>
+	</head>
+	<body>
+		    <div>
+		        <img id="verify_img" src="{:captcha_src()}" alt="验证码" onclick="refreshVerify()">
+		    </div>
+		    <form action="{:url('login/getAcount')}" method="post">
+		        email<input type="text" name = "uemail">
+		        verify<input type="text" name = "verify">
+		        <input type="submit" value = "提交">
+		    </form>
+		    <script>
+		        function refreshVerify() {
+		            var ts = Date.parse(new Date())/1000;
+		            var img = document.getElementById('verify_img');
+		            var url = "{:captcha_src()}";
+		            img.src = url+"?t="+ts;
+		        }
+		    </script>
+		
+		
+	</body>
+</html>

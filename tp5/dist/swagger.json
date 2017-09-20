@@ -1,0 +1,623 @@
+{
+    "swagger": "2.0",
+    "paths": {
+        "/tp5/web/index/login/isLogin": {
+            "post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "登录验证",
+                "description": "登录验证返回状态码信息:<br/>200=登录成功,<br/>3001=账号不存在,<br/>3002=密码错误,<br/>3003=账号被禁用 ",
+                "operationId": "isLogin",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "账号",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "upass",
+                        "in": "formData",
+                        "description": "密码",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "isAutoLogn",
+                        "in": "formData",
+                        "description": "是否记住我【1=记住，0=不记住】",
+                        "required": false,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/getAcount": {
+            "post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "找回用户账号",
+                "description": "200=发送邮件成功,<br/>3004=验证码错误,<br/>3005=邮箱不存在,<br/>3006=发送邮件失败，请稍后再试",
+                "operationId": "getAcount",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "uemail",
+                        "in": "formData",
+                        "description": "邮箱",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "verify",
+                        "in": "formData",
+                        "description": "验证码",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/verifyUcount":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "验证账号是否存在",
+                "description": "200=验证通过,<br/>3001=账号不存在,<br/>3003=账号被禁用",
+                "operationId": "verifyUcount",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "账号",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/getMailCode":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "发送验证码邮箱接收",
+                "description": "200=发送成功,<br/>3005=邮箱不存在,<br/>3003=账号被禁用,<br/>3006=发送邮件失败，请稍后再试",
+                "operationId": "getMailCode",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "uemail",
+                        "in": "formData",
+                        "description": "邮箱",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/resetVerify":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "重置密码验证",
+                "description": "200=验证通过【可获取data.str】,<br/>3005=邮箱不存在,<br/>3003=账号被禁用,<br/>3004=验证码错误,<br/>3007=验证码已过期，请重新发送,<br/>3001=账号不存在",
+                "operationId": "resetVerify",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                	{
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "账号",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "uemail",
+                        "in": "formData",
+                        "description": "邮箱",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "verify",
+                        "in": "formData",
+                        "description": "验证码",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/resetPwd":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "重置密码动作",
+                "description": "200=验证通过【可获取data.msg】,<br/>3000=非法请求,<br/>3008=请求链接已经过期，请重新再试,<br/>3009=操作失败",
+                "operationId": "resetPwd",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                	{
+                        "name": "uid",
+                        "in": "formData",
+                        "description": "用户ID",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "str",
+                        "in": "formData",
+                        "description": "字符key值",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "code",
+                        "in": "formData",
+                        "description": "时间加密字符",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "time",
+                        "in": "formData",
+                        "description": "时间",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "upass",
+                        "in": "formData",
+                        "description": "密码",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/verifyUemail":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "验证邮箱是否被注册过",
+                "description": "200=发送成功,<br/>3010=此邮箱已被注册过，请更换邮箱,<br/>3006=发送邮件失败，请稍后再试",
+                "operationId": "verifyUemail",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "uemail",
+                        "in": "formData",
+                        "description": "邮箱",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/ucountIsReg":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "判断账号是否被注册过",
+                "description": "200=判断成功,<br/>3011=账号被注册过，换一个吧",
+                "operationId": "ucountIsReg",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "账号",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/login/reg":{
+        	"post": {
+                "tags": [
+                    "1、登录注册模块"
+                ],
+                "summary": "注册",
+                "description": "200=注册成功,<br/>3010=此邮箱已被注册过，请更换邮箱,<br/>3011=账号被注册过，换一个吧,<br/>3007=验证码已过期，请重新发送,<br/>3004=验证码错误,<br/>3012=注册失败，请稍后再试",
+                "operationId": "reg",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                	{
+                        "name": "uemail",
+                        "in": "formData",
+                        "description": "邮箱",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "verify",
+                        "in": "formData",
+                        "description": "验证码",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "账号",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "uname",
+                        "in": "formData",
+                        "description": "用户昵称",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "upass",
+                        "in": "formData",
+                        "description": "密码",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/upload":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "上传图片",
+                "description": "200=上传成功【data.info图片地址路径】,<br/>3013=上传文件类型错误，非图片格式,<br/>3014=上传文件不能大于2M",
+                "operationId": "upload",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "image",
+                        "in": "formData",
+                        "description": "图片文件",
+                        "required": true,
+                        "type": "file"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/saveUimage":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "保存头像",
+                "description": "200=保存成功,<br/>3009=操作失败",
+                "operationId": "saveUimage",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "uimage",
+                        "in": "formData",
+                        "description": "图片地址",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/profile":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "获取个人信息",
+                "description": "200=保存成功，可以获取data数据，data数据说明：<br/>name:字段名<br/>zhname:字段中文显示名,<br/>cvalue:字段对应的值,<br/>cseen:可见设置（0=任何人，1=仅好友，2保密）<br/>chome:是否显示在首页（1=显示，0=不显示）",
+                "operationId": "profile",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "type",
+                        "in": "formData",
+                        "description": "获取展示信息的类型（0=基本信息，1=个人信息，2=联系方式）",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/saveProfile":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "批量保存个人信息",
+                "description": "200=保存成功,<br/>3009=操作失败<br/>特殊说明：<br/>需要info格式为$info[['name','lucy',0,0],['gender',1,0,0],['字段名','字段值','可见设置','是否显示在首页'].....],顺序不可变",
+                "operationId": "saveProfile",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "type",
+                        "in": "formData",
+                        "description": "获取展示信息的类型（0=基本信息，1=个人信息，2=联系方式）",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "info",
+                        "in": "formData",
+                        "description": "需要批量保存的数据【数组格式】",
+                        "required": true,
+                        "type": "array"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/modNickName":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "修改昵称",
+                "description": "200=修改成功,<br/>3009=操作失败",
+                "operationId": "modNickName",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "uname",
+                        "in": "formData",
+                        "description": "昵称",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/modUcount":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "修改登录账号",
+                "description": "200=修改成功,<br/>3009=操作失败,<br/>3015=该账号被使用了",
+                "operationId": "modUcount",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "账号",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/modPwd":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "修改密码",
+                "description": "200=修改成功,<br/>3009=操作失败,<br/>3016=原密码错误",
+                "operationId": "modPwd",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "oldpass",
+                        "in": "formData",
+                        "description": "原密码【MD5加密】",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "newpass",
+                        "in": "formData",
+                        "description": "新密码【MD5加密】",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/user/modUemail":{
+        	"post": {
+                "tags": [
+                    "2、用户个人信息"
+                ],
+                "summary": "修改邮箱",
+                "description": "200=修改成功,<br/>3009=操作失败,<br/>3016=原密码错误,<br/>3010=此邮箱已被注册过，请更换邮箱",
+                "operationId": "modUemail",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "upass",
+                        "in": "formData",
+                        "description": "密码【MD5加密】",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "uemail",
+                        "in": "formData",
+                        "description": "邮箱",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/message/listinfo":{
+        	"post": {
+                "tags": [
+                    "3、消息模块"
+                ],
+                "summary": "消息列表",
+                "description": "200=成功,<br/>获取data数据：<br/>mid:消息ID,<br/>mtitle:消息标题,<br/>mtime:发送时间,<br/>muid:发消息人ID,<br/>uname:发消息人姓名",
+                "operationId": "listinfo",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "type",
+                        "in": "formData",
+                        "description": "展示列表数据类型（1=收件信息，2=发件信息，3=未读信息）",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/message/dealMessage":{
+        	"post": {
+                "tags": [
+                    "3、消息模块"
+                ],
+                "summary": "修改消息状态（未读，已读，删除）",
+                "description": "200=操作成功,<br/>3009=操作失败",
+                "operationId": "dealMessage",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "mstatus",
+                        "in": "formData",
+                        "description": "需要处理成的状态(1=未读，2=已读，0=删除)",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "mid",
+                        "in": "formData",
+                        "description": "需要处理的消息ID（字符串格式，多个以【,】拼接起来）",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/message/getSingleMsg":{
+        	"post": {
+                "tags": [
+                    "3、消息模块"
+                ],
+                "summary": "获取一条详细消息",
+                "description": "200=操作成功,<br/>可以获取返回的data:<br/>mid:消息ID<br/>mtitle:消息标题<br/>mcontent:消息内容<br/>mtime:发送消息时间<br/>muid:发送者ID<br/>mstatus:消息状态【1=未读，2=已读，0=删除】<br/>uname:发消息者姓名<br/>uimageurl:发消息者头像地址",
+                "operationId": "getSingleMsg",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "mid",
+                        "in": "formData",
+                        "description": "消息ID",
+                        "required": true,
+                        "type": "integer"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/message/backMessage":{
+        	"post": {
+                "tags": [
+                    "3、消息模块"
+                ],
+                "summary": "短消息备份",
+                "description": "直接下载<br/>3001=账号不存在",
+                "operationId": "backMessage",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "用户账号【空表示导出全部】",
+                        "required": false,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/tp5/web/index/message/saveMessage":{
+        	"post": {
+                "tags": [
+                    "3、消息模块"
+                ],
+                "summary": "保存短消息(发送)",
+                "description": "200=保存成功<br/>30017=收件人不存在,<br/>3018=收件人账号被禁用,<br/>3009=操作失败",
+                "operationId": "saveMessage",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "ucount",
+                        "in": "formData",
+                        "description": "收件人账号",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "mtitle",
+                        "in": "formData",
+                        "description": "消息标题",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "mcontent",
+                        "in": "formData",
+                        "description": "消息内容",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        }
+    },
+    "definitions": {}
+}

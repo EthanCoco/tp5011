@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录界面</title>
+		<script src="__STATIC__/jquery-1.9.1.min.js"></script>
+		<script src="__STATIC__/md5.js"></script>
+	</head>
+	<body>
+		<div>
+			<p>用户名(<a id="">找回</a>)</p>
+			<input type="text" id="uname" placeholder="请输入用户名">
+			<p>密码(<a id="">忘记</a>)</p>
+			<input type="password" id="upass" placeholder="请输入密码">
+			<input type="checkbox" id="isAutoLogn" value="1">记住我
+			<button id="app">denglu</button>
+		</div>
+		
+		<script>
+			$(function(){
+				$("#app").click(function(){
+					var uname = $("#uname").val();
+					var upass = MD5($("#upass").val());
+					var isAutoLogn = $("#isAutoLogn").val();
+					
+				});
+			});
+			
+		</script>
+	</body>
+</html>

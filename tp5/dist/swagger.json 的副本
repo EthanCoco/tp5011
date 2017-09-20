@@ -1,0 +1,48 @@
+{
+    "swagger": "2.0",
+    "paths": {
+        "/admin/login/checkLogin": {
+            "post": {
+                "tags": [
+                    "login"
+                ],
+                "summary": " \u68c0\u6d4b\u767b\u5f55",
+                "description": " \u68c0\u6d4b\u767b\u5f55.",
+                "operationId": "checkLogin",
+                "produces": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "username",
+                        "in": "formData",
+                        "description": "\u7528\u6237\u540d",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "password",
+                        "in": "formData",
+                        "description": "\u5bc6\u7801",
+                        "required": true,
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "/admin/login/logout": {
+            "post": {
+                "tags": [
+                    "logout"
+                ],
+                "summary": "\u6ce8\u9500",
+                "description": "\u6ce8\u9500.",
+                "operationId": "logout",
+                "produces": [
+                    "application/json"
+                ]
+            }
+        }
+    },
+    "definitions": {}
+}
