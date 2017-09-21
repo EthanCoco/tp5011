@@ -4,6 +4,7 @@ use think\Config;
 use think\Request;
 use think\Db;
 use think\db\Query;
+use think\Validate;
 
 //在任何地方使用静态方法进行模板变量赋值
 \think\View::share(['share1'=>'share1']);
@@ -342,6 +343,54 @@ class Demo extends Base{
 /*************************************开始模块*********************************/   
   
   
-  
-
+    /*验证器*/
+  	public function vldt(){
+  		//独立验证
+  		//$validate  = new Validate([
+  		//	'name' => 'require|max:25',
+  		//	'email'=> 'email',
+  		//]);
+  		
+  		$data = [
+  			'name' => 'j',
+  			'email' => '231904874.com', 
+  			'age'	=> 19.8,
+  			'weight'=>'dsdsd',
+  			'acount' => 'jkk',
+  		];
+  		//加载验证器
+  		//$validate = \think\Loader::validate('Demo');
+  		
+  		//单一验证
+		//if(!$validate->check($data)){
+		//	return $this->myInfo(['code'=>300,'msg'=>$validate->getError()]);
+		//}
+  		//批量验证
+  		//if(!$validate->batch()->check($data)){
+  		//	return $this->myInfo(['code'=>300,'msg'=>$validate->getError()]);
+  		//}
+  		
+  		//场景验证
+  		//if(!$validate->scene('edit')->batch()->check($data)){
+  		//	return $this->myInfo(['code'=>300,'msg'=>$validate->getError()]);
+  		//}
+  		
+  		
+  		//如果继承了think\Controller的话只需要使用$this->validate()就可以了  不需要loader
+  		//控制器普通验证(控制器验证不支持批量验证)
+		//$result = $this->validate($data,'Demo');
+		//if(true !== $result){
+		//	return $this->myInfo(['code'=>300,'msg'=>$result]);
+		//}
+  		
+  		//验证场景
+  		//$result = $this->validate($data,'Demo.edit');
+  		//if(true !== $result){
+  		//	return $this->myInfo(['code'=>300,'msg'=>$result]);
+  		//}
+  		
+  		//静态验证单个数据
+  		//$result = Validate::is('2017-02-33','date');//返回的是true或false
+  		//return dump($result);
+  	}
 }
