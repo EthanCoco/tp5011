@@ -26,11 +26,7 @@ class Login extends Base{
 		//是否自动登录
 		$isAutoLogin = intval($this->request->post('isAutoLogn',0));
 		//规则登录场景验证
-		$vmsg = $this->validate(['ucount'=>$ucount,'upass'=>$upass],'User.login');
-		//如果不为true返回错误信息
-		if(true !== $vmsg){
-			return $this->myInfo(['code'=>300,'msg'=>$vmsg]);
-		}
+		$this->myValidate(['ucount'=>$ucount,'upass'=>$upass],'User.login');
 		
 		//通过账号获取用户信息
 		$info = User::findByKey('ucount',$ucount);
@@ -93,10 +89,7 @@ class Login extends Base{
 		//验证码
 		$verify = $this->request->post('verify');
 		//验证邮箱
-		$vmsg = $this->validate(['uemail'=>$uemail],'User.findCount');
-		if(true !== $vmsg){
-			return $this->myInfo(['code'=>300,'msg'=>$vmsg]);
-		}
+		$this->myValidate(['uemail'=>$uemail],'User.findCount');
 		//校验验证码是否正确
 		if(!captcha_check($verify)){
 			return $this->myInfo(['code'=>300,'msg'=>'验证码不正确']);
@@ -276,105 +269,106 @@ class Login extends Base{
 		}
 	}
 	
-	/*验证邮箱是否被注册过*/
+	/*judge email was already register*/
 	public function verifyUemail(){
-		//邮箱
+		//email
 		$uemail = $this->request->post('uemail');
-		//指定唯一字段邮箱获取信息
-		$info = User::findByKey('uemail',$uemail);
-		//判断邮箱是否被注册过
-		if(!empty($info)){
-			return $this->myInfo(['code'=>3010]);
-		}
-		//发送验证码到邮件
-		//收件人
+		$this->myValidate(['uemail'=>$uemail],'User.is_reg_uemail');
+		//point the unique column of uemail and get datas
+		//$info = User::findByKey('uemail',$uemail);
+		//judge email was already register 
+		//if(!empty($info)){
+		//	return $this->myInfo(['code'=>3010]);
+		//}
+		
+		//send verify code to user email
+		//reciver
 		$to = $uemail;
-		//邮件主题
+		//theme
         $title = '验证码';
-        //验证码
+        //verify code
         $verify = mt_rand(100000,999999);
-        //邮件内容
+        //content
         $content = '您的注册验证码是【'.$verify.'】，请不要泄露！【1小时内有效】';
-        //发送邮件
+        //set cache
+        Cache::set('REG_CODE_'.$uemail, 1,Config::get('self.reg_verify_time'));
+        //send
         if(send_mail($to,$title,$content)){
-        	//设置缓存
-        	Cache::set('REG_CODE_'.$uemail, 1,Config::get('self.reg_verify_time'));
         	return $this->myInfo(['code'=>200,'msg'=>'发送成功']);
         }else{
-        	return $this->myInfo(['code'=>3006]);
+        	//delete cache
+        	Cache::rm('REG_CODE_'.$uemail); 
+        	return $this->myInfo(['code'=>300,'msg'=>'发送邮件失败，请稍后再试']);
         }
 	}
 	
-	/*判断账号是否被注册过*/
+	/*judge acount was already register*/
 	public function ucountIsReg(){
 		$ucount = $this->request->post('ucount');
-		//指定唯一字段用户账号获取信息
-		$info = User::findByKey('ucount',$ucount);
-		//判断账号是否被注册过
-		if(!empty($info)){
-			return $this->myInfo(['code'=>3011]);
-		}
-		return $this->myInfo(['code'=>200]);
+		$this->myValidate(['ucount'=>$ucount],'User.is_reg_ucount');
+		//point the unique column of uemail and get datas
+		//$info = User::findByKey('ucount',$ucount);
+		//judge acount was already register 
+		//if(!empty($info)){
+		//	return $this->myInfo(['code'=>3011]);
+		//}
+		return $this->myInfo(['code'=>200,'msg'=>'恭喜你，此账号可以使用']);
 	}
 	
-	/*注册*/
+	/*register*/
 	public function reg(){
-		//邮箱
+		//user email
 		$uemail = $this->request->post('uemail');
-		//验证码
+		//verify code
 		$verify = $this->request->post('verify');
-		//用户账号
+		//user acount
 		$ucount = $this->request->post('ucount');
-		//用户昵称
+		//user nickname
 		$uname = $this->request->post('uname');
-		//密码
+		//user password
 		$upass = $this->request->post('upass');
 		
-		$vmsg = $this->validate([
+		//validate register columns 
+		$this->myValidate([
 			'uemail'	=> $uemail,
 			'verify'	=> $verify,
 			'ucount'	=> $ucount,
 			'uname'		=> $uname,
-			'upass'		=> $upass
+			'upass'		=> $upass,
 		],'User.register');
-		if(true !== $vmsg){
-			return $this->myInfo(['code'=>300,'msg'=>$vmsg]);			
-		}
-		
-		
-		//指定唯一字段邮箱获取信息
-		$info = User::findByKey('uemail',$uemail);
-		//判断邮箱是否被注册过
-		if(!empty($info)){
-			return $this->myInfo(['code'=>3010]);
-		}
-		//指定唯一字段账号获取信息
-		$info1 = User::findByKey('ucount',$ucount);
-		//判断账号是否被注册过
-		if(!empty($info1)){
-			return $this->myInfo(['code'=>3011]);
-		}
-		//验证码
+		//point the unique column of uemail and get datas
+		//$info = User::findByKey('uemail',$uemail);
+		//judge email was already register 
+		//if(!empty($info)){
+		//	return $this->myInfo(['code'=>3010]);
+		//}
+		////point the unique column of uemail and get datas
+		//$info1 = User::findByKey('ucount',$ucount);
+		//judge acount was already register 
+		//if(!empty($info1)){
+		//	return $this->myInfo(['code'=>3011]);
+		//}
+		//get cache verify code 
 		$vcode= Cache::get('REG_CODE_'.$uemail);
-		//判断验证码是否过期
+		//judge the verify code was already over time 
 		if(!$vcode){
-			return $this->myInfo(['code'=>3007]);
-		//判断验证码是否正确
+			return $this->myInfo(['code'=>300,'msg'=>'验证码已过期，请重新发送']);
+		//judge the verify code is right
 		}elseif($verify != $vcode){
-			return $this->myInfo(['code'=>3004]);
+			return $this->myInfo(['code'=>300,'msg'=>'验证码错误']);
 		}
-		//插入的数据
+		//will need insert to database data
 		$data['ucount'] = $ucount;
 		$data['uemail'] = $uemail;
 		$data['uname'] = $uname;
 		$data['upass'] = MD5(hash('sha256', $upass));
 		$data['uregtime'] = date('Y-m-d H:i:s',time());
-		//注册用户
+		//register user
 		$result = User::add(0,$data);
 		if($result){
 			return $this->myInfo(['code'=>200,'msg'=>'注册成功']);
 		}else{
-			return $this->myInfo(['code'=>3012]);
+			return $this->myInfo(['code'=>300,'msg'=>'注册失败，请稍后再试']);
 		}
 	}
 	

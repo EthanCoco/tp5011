@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
 use think\Session;
+use think\Validate;
 class Base extends \think\Controller{
     /*初始化操作*/
     public function _initialize(){
@@ -21,7 +22,29 @@ class Base extends \think\Controller{
    	public function myInfo($data){
    		return json($data);exit;
    	}
-   
+    
+    /*validate function*/
+    public function myValidate($validate_data = [],$validate_scene = ''){
+    	if(empty($validate_data) || empty($validate_scene)){
+    		echo  json_encode(['code'=>300,'msg'=>'传入参数格式不正确，需要两个参数且不为空']);exit;
+    	}
+    	
+    	if(!is_array($validate_data)){
+    		echo  json_encode(['code'=>300,'msg'=>'传入参数格式不正确，第一个参数需要数组格式']);exit;
+    	}
+    	
+    	if(!is_string($validate_scene)){
+    		echo json_encode(['code'=>300,'msg'=>'传入参数格式不正确，第二个参数需要字符串格式']);exit;
+    	}
+    	
+    	$res = $this->validate($validate_data,$validate_scene);
+
+    	if(true !== $res){
+    		echo json_encode(['code'=>300,'msg'=>$res]);exit;
+    	}
+    }
+    
+    
 	/*上传图片 并 生成缩略图*/
 	public function uploadImage(){
 		//获取上传图片文件
