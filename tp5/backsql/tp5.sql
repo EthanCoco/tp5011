@@ -10,10 +10,52 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-09-18 20:52:29
+Date: 2017-09-21 20:49:52
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for blog_msg
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_msg`;
+CREATE TABLE `blog_msg` (
+  `mid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `uid` bigint(20) DEFAULT NULL COMMENT '用户ID',
+  `mtitle` varchar(100) DEFAULT NULL COMMENT '标题',
+  `mcontent` text COMMENT '内容',
+  `mtime` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT '发送时间',
+  `mstatus` tinyint(1) DEFAULT '1' COMMENT '状态（1=未读，2=已读，0=删除）',
+  `muid` bigint(20) DEFAULT NULL COMMENT '发消息者ID',
+  PRIMARY KEY (`mid`)
+) ENGINE=MyISAM AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_msg
+-- ----------------------------
+INSERT INTO `blog_msg` VALUES ('1', '1', '测试测试11', '测试测试测绘师肯定好看的方式的合法的开始防守打法你到时', '2017-09-20 10:04:36', '1', '31');
+INSERT INTO `blog_msg` VALUES ('2', '1', '测试测试11', '测试测试测绘师肯定好看的方式的合法的开始防守打法你到时', '2017-09-20 10:04:36', '1', '31');
+INSERT INTO `blog_msg` VALUES ('3', '31', '测试测试22', '测试测试测绘师肯定好看的方式的合法的开始防守打法你到时', '2017-09-19 10:44:11', '1', '1');
+INSERT INTO `blog_msg` VALUES ('4', '31', '测试测试22', '测试测试测绘师肯定好看的方式的合法的开始防守打法你到时', '2017-09-19 10:44:13', '1', '1');
+INSERT INTO `blog_msg` VALUES ('5', '31', 'sdasdasd', 'asdasdasd', '2017-09-07 14:31:07', '1', '1');
+
+-- ----------------------------
+-- Table structure for blog_test
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_test`;
+CREATE TABLE `blog_test` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `time` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
+  `aa` varchar(255) DEFAULT NULL,
+  `bb` varchar(255) DEFAULT NULL,
+  `cc` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=20015 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_test
+-- ----------------------------
 
 -- ----------------------------
 -- Table structure for blog_ucname
@@ -90,9 +132,10 @@ CREATE TABLE `blog_user` (
   PRIMARY KEY (`uid`),
   UNIQUE KEY `ucount` (`ucount`),
   UNIQUE KEY `uemail` (`uemail`)
-) ENGINE=MyISAM AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COMMENT='用户表';
+) ENGINE=MyISAM AUTO_INCREMENT=32 DEFAULT CHARSET=utf8 COMMENT='用户表';
 
 -- ----------------------------
 -- Records of blog_user
 -- ----------------------------
 INSERT INTO `blog_user` VALUES ('1', 'lijianlin', '82bdc4f63cfa37b7335c0f478310c088', '李建林', '2319048747@qq.com', '0000-00-00 00:00:00', '', '1', '2', '11111', null);
+INSERT INTO `blog_user` VALUES ('31', 'blog', '82bdc4f63cfa37b7335c0f478310c088', '团队', '', '0000-00-00 00:00:00', '', '1', '1', null, null);
