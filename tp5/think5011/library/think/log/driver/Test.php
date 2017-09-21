@@ -1,6 +1,6 @@
 <?php
 // +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK ]
+// | ThinkPHP [ WE CAN DO IT JUST THINK IT ]
 // +----------------------------------------------------------------------
 // | Copyright (c) 2006-2016 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
@@ -9,15 +9,22 @@
 // | Author: liu21st <liu21st@gmail.com>
 // +----------------------------------------------------------------------
 
-// [ 应用入口文件 ]
+namespace think\log\driver;
 
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../app/');
+/**
+ * 模拟测试输出
+ */
+class Test
+{
+    /**
+     * 日志写入接口
+     * @access public
+     * @param array $log 日志信息
+     * @return bool
+     */
+    public function save(array $log = [])
+    {
+        return true;
+    }
 
-//修改定义配置文件目录
-define('CONF_PATH', __DIR__ . '/../config/');
-
-//require __DIR__ .'/../vendor/swagger-php/vendor/autoload.php';
-
-// 加载框架引导文件
-require __DIR__ . '/../think5011/start.php';
+}

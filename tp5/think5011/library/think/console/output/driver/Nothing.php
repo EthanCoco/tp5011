@@ -2,22 +2,32 @@
 // +----------------------------------------------------------------------
 // | ThinkPHP [ WE CAN DO IT JUST THINK ]
 // +----------------------------------------------------------------------
-// | Copyright (c) 2006-2016 http://thinkphp.cn All rights reserved.
+// | Copyright (c) 2006~2015 http://thinkphp.cn All rights reserved.
 // +----------------------------------------------------------------------
 // | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
 // +----------------------------------------------------------------------
-// | Author: liu21st <liu21st@gmail.com>
+// | Author: yunwuxin <448901948@qq.com>
 // +----------------------------------------------------------------------
 
-// [ 应用入口文件 ]
+namespace think\console\output\driver;
 
-// 定义应用目录
-define('APP_PATH', __DIR__ . '/../app/');
+use think\console\Output;
 
-//修改定义配置文件目录
-define('CONF_PATH', __DIR__ . '/../config/');
+class Nothing
+{
 
-//require __DIR__ .'/../vendor/swagger-php/vendor/autoload.php';
+    public function __construct(Output $output)
+    {
+        // do nothing
+    }
 
-// 加载框架引导文件
-require __DIR__ . '/../think5011/start.php';
+    public function write($messages, $newline = false, $options = Output::OUTPUT_NORMAL)
+    {
+        // do nothing
+    }
+
+    public function renderException(\Exception $e)
+    {
+        // do nothing
+    }
+}
