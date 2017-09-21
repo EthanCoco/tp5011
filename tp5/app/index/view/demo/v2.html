@@ -1,0 +1,21 @@
+{__NOLAYOUT__}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>视图</title>
+		<script src="__WJS__/jquery-1.9.1.min.js"></script>
+	</head>
+	<body>
+		md5 = {$data.name|md5}<br />
+		time = {$data.time|date='y-m-d',###}<br />
+		substr = {$data.name|substr=0,4}<br />
+		substr = {$data.name|substr=###,0,4}<br />
+		多个一起 = {$data.name|strtoupper|substr=0,4}<br />
+		{:substr(strtoupper(md5($data.name)),0,3)}<br />
+		默认值 = {$data.ddff|default="dsdsdsd"}<br />
+		
+		{php} echo $data['name']; {/php}
+		
+	</body>
+</html>

@@ -4,6 +4,9 @@ use think\Config;
 use think\Request;
 use think\Db;
 use think\db\Query;
+
+//在任何地方使用静态方法进行模板变量赋值
+\think\View::share(['share1'=>'share1']);
 class Demo extends Base{
 	
 	//空操作
@@ -29,7 +32,7 @@ class Demo extends Base{
 	
 	//miss路由
 	public function miss(){
-		return "dsdsds";
+		return '路由错误';
 	}
 	
     //配置demo
@@ -297,7 +300,48 @@ class Demo extends Base{
     	
 /*************************************结束查询构造器*********************************/  
     }
-    
-    
-    
+ 
+/*************************************开始视图*********************************/    
+    public function viewreq(){
+    	//如果controller继承了\think\Controller 可以直接使用$this->fetch()方法
+    	//否则需要new \think\View()
+    	//return $this->fetch('v1',['name'=>'demo']); fetch 方法
+    	
+    	//说明 助手函数可以不用继承\think\Controller，直接使用
+    	//return view('v1',['name'=>'demo']);	//助手函数view
+    	
+    	
+    	//模板赋值assign()方法
+      	//$this->assign('name','demo1');
+      	//$this->assign('nickname','ddeemmoo');
+      	//赋值多个使用数组模式
+      	//$this->assign([
+      	//	'vv'=>1,
+      	//	'vv2'=>2,
+      	//	'vv3'=>3,
+      	//	'vv4'=>4
+      	//]);
+    	//fetch模板变量
+    	//return $this->fetch('v1',['vv3'=>3,'vv4'=>4]);
+    	//$content = '{$name1}-{$email}';
+        //return $this->display($content, [
+        //    'name1'  => 'ThinkPHP',
+        //   'email' => 'thinkphp@qq.com'
+        //]);
+    }
+/*************************************结束视图*********************************/ 
+  
+/*************************************开始模块*********************************/ 
+	public function mview(){
+		
+		//$this->view->engine->layout(false);//关闭布局
+		//使用函数
+		$this->assign('data',['name'=>'abcdefg','time'=>time(),'ddff'=>'']);
+		return $this->fetch('v2');
+	}
+/*************************************开始模块*********************************/   
+  
+  
+  
+
 }
