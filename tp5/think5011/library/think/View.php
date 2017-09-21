@@ -47,6 +47,10 @@ class View
             '__STATIC__' => $root . '/static',
             '__CSS__'    => $root . '/static/css',
             '__JS__'     => $root . '/static/js',
+            //add by lijl 20170921
+            '__WJS__'    => $root . '/js/',
+            '__WCSS__'   => $root . '/css/',
+            '__WIMG__'	 => $root . '/images/',
         ];
         $this->replace = array_merge($baseReplace, (array) $replace);
     }
