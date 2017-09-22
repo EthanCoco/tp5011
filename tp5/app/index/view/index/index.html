@@ -36,7 +36,7 @@
     <div class="desktop">
         <div id="win10-shortcuts" class="shortcuts-hidden">
             {volist name="desktopInfo" id="vo"}
-            	<div class="shortcut" ondblclick="Win10.openUrl('{$vo.openurl}','<i class=\'{$vo.fai}\'></i>{$vo.title}')">
+            	<div class="shortcut" ondblclick="Win10.openUrl('{$vo.openurl}','<img class=\'icon\' src=\'{$vo.iconurl}\' />{$vo.title}')">
 	                <img class="icon" src="{$vo.iconurl}"/>
 	                <div class="title">{$vo.title}</div>
 	            </div>
@@ -48,7 +48,7 @@
     <div id="win10-menu" class="hidden">
         <div class="list win10-menu-hidden animated animated-slideOutLeft">
             {volist name="menuInfo" id="vo"}
-	        <div style="color:{$vo.color}" class="item" onclick="Win10.openUrl('{$vo.openurl}','<i class=\'{$vo.fai}\'></i>{$vo.title}')">
+	        <div style="color:{$vo.color}" class="item" onclick="Win10.openUrl('{$vo.openurl}','<img class=\'icon\' src=\'{$vo.iconurl}\' />{$vo.title}')">
 	        	<i class="{$vo.fai}"></i>
 	        	{$vo.title}
 	       	</div>

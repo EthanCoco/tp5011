@@ -26,15 +26,28 @@ class Index extends Model{
 	}
 	
 	public static function listDesktopInfo($uid = ''){
-		$infos = Db::name('desktop')
+		$unionQuery = Db::name('desktop')
 									->join('__USER_DESKTOP__','desktopid = id','inner')
 									->field('openurl,iconurl,title,fai')
 									->where('status',1)
+									->where('sysdef',0)
 									->where('uid',$uid)
-									->order('ordersrot')
+									//->order('ordersrot')
+									->select(false);
+									
+    	$infos = Db::name('desktop')
+									->join('__USER_DESKTOP__','desktopid = id','left')
+									->field('openurl,iconurl,title,fai')
+									->where('status',1)
+									->where('sysdef',1)
+									->where('uid is null')
+									->union($unionQuery,true)
+									//->order('ordersrot')
 									->select();
 									
     	$jsonData = [];
+    	
+    	
     	
     	foreach($infos as $info){
     		$jsonData[] = [
@@ -45,6 +58,14 @@ class Index extends Model{
     			'fai'		=>	$info['fai'],
     		];
     	}
+    	
+    	
+    	
+    	
+    	
+    	
+    	
+    	
     	
 		return $jsonData;
 	}
