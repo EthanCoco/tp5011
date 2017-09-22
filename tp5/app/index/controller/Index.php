@@ -20,4 +20,10 @@ class Index extends Base{
     	$this->assign('info',$jsonData);
 		return $this->fetch('index/index');
     }
+    
+    /************************************************start work area**********************************************/
+	/*point user management page*/
+	public function user(){
+		return $this->fetch('user/index');
+	}    
 }
