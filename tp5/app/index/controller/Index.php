@@ -24,6 +24,21 @@ class Index extends Base{
     
     
     /************************************************start work area**********************************************/
+	/*point company website*/
+	public function comwebsite(){
+		return $this->fetch(APP_PATH.request()->module().'/view/default/public/website.html');
+	}
+	
+	/*point user manual page*/
+	public function usermanual(){
+		return $this->fetch(APP_PATH.request()->module().'/view/default/public/manual.html');
+	}
+	
+	/*point else help page*/
+	public function help(){
+		return $this->fetch(APP_PATH.request()->module().'/view/default/public/help.html');
+	}
+	
 	/*point user management page*/
 	public function user(){
 		return $this->fetch('user/index');
