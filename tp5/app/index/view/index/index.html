@@ -47,15 +47,22 @@
     <!--bottom list menu-->
     <div id="win10-menu" class="hidden">
         <div class="list win10-menu-hidden animated animated-slideOutLeft">
-            {volist name="menuInfo" id="vo"}
-	        <div style="color:{$vo.color}" class="item" onclick="Win10.openUrl('{$vo.openurl}','<img class=\'icon\' src=\'{$vo.iconurl}\' />{$vo.title}')">
-	        	<i class="{$vo.fai}"></i>
-	        	{$vo.title}
+        	{volist name="menuInfo" id="vo"}
+        	<div style="color:{$vo.mcolor}" class="item"><i class="{$vo.mfa}"></i><span>{$vo.name}</span></div>
+        	{volist name="vo['sub']" id="sub"}
+        	<div style="color:{$sub.color}" class="sub-item" onclick="Win10.openUrl('{$sub.openurl}','<img class=\'icon\' src=\'{$sub.iconurl}\' />{$sub.title}')">
+	        	{$sub.title}
 	       	</div>
-            {/volist}
+        	{/volist}
+        	{/volist}
+        	
+        	
+        	
+           
             <div class="item" onclick="Win10.logout('{:url(\'index/logout\')}')"><i class="black icon fa fa-sign-out fa-fw"></i>退出</div>
             <div class="item" onclick="Win10.exit()"><i class="black icon fa fa-power-off fa-fw"></i>关机</div>
         </div>
+        
         <div class="blocks">
             <div class="menu_group">
                 <div class="title">Welcome</div>
