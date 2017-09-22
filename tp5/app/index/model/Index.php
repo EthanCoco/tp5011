@@ -4,24 +4,35 @@ use think\Model;
 use think\Db;
 class Index extends Model{
 	public static function listMenuInfo(){
-		$infos = Db::name('desktop')
+		$folders = Db::name('menuFolder')->select();
+		$jsonData = [];
+		$index = 0;
+		foreach($folders as $f){
+			$jsonData[$index] = [
+				'name' 		=> 	$f['mname'],
+				'mfa'  		=> 	$f['mfa'],
+				'mcolor'	=>	randrgb()
+			];
+			$infos = Db::name('desktop')
 									->field('openurl,iconurl,title,fai')
 									->where('status',1)
+									->where('menupid',$f['mid'])
 									->order('ordersrot')
 									->select();
-									
-    	$jsonData = [];
-    	
-    	foreach($infos as $info){
-    		$jsonData[] = [
-    			'openurl'	=>	url($info['openurl']),
-    			'iconurl'	=>	$info['iconurl'],
-    			'title'		=>	$info['title'],
-    			'color'		=>	randrgb(),
-    			'fai'		=>	$info['fai'],
-    		];
-    	}
-    	
+			$tempData = [];
+	    	foreach($infos as $info){
+	    		$tempData[] = [
+	    			'openurl'	=>	url($info['openurl']),
+	    			'iconurl'	=>	$info['iconurl'],
+	    			'title'		=>	$info['title'],
+	    			'color'		=>	randrgb(),
+	    			//'fai'		=>	$info['fai'],
+	    		];
+	    	}
+			$jsonData[$index]['sub'] = $tempData;
+			$index++;
+		}
+		//dump($jsonData);exit;
 		return $jsonData;
 	}
 	
@@ -46,9 +57,6 @@ class Index extends Model{
 									->select();
 									
     	$jsonData = [];
-    	
-    	
-    	
     	foreach($infos as $info){
     		$jsonData[] = [
     			'openurl'	=>	url($info['openurl']),
@@ -58,15 +66,6 @@ class Index extends Model{
     			'fai'		=>	$info['fai'],
     		];
     	}
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
-    	
 		return $jsonData;
 	}
 	
