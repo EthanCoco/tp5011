@@ -1,51 +1,36 @@
-<!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-    <title>工作区</title>
-    <link rel='Shortcut Icon' type='image/x-icon' href='__WIMG__/img/windows.ico'>
-    <script type="text/javascript" src="__WJS__/jquery-2.2.4.min.js"></script>
-    <link href="__WCSS__/animate.css" rel="stylesheet">
-    <script type="text/javascript" src="__STATIC__/component/layer-v3.0.3/layer/layer.js"></script>
-    <link rel="stylesheet" href="__STATIC__/component/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="__WCSS__/default.css" rel="stylesheet">
-    <script type="text/javascript" src="__WJS__/win10.js"></script>
-    <style>
-        * {
-            font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
-        }
+{include file="default/public/header" /}
+<style>
+    * {
+        font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
+    }
 
-        /*磁贴自定义样式*/
-         .win10-block-content-text {
-             line-height: 44px;
-             text-align: center;
-             font-size: 16px;
-         }
-    </style>
-    <script>
-        Win10.onReady(function () {
+    /*磁贴自定义样式*/
+     .win10-block-content-text {
+         line-height: 44px;
+         text-align: center;
+         font-size: 16px;
+     }
+</style>
+<script>
+    Win10.onReady(function () {
 
-            //设置壁纸
-            Win10.setBgUrl({
-                main: '__WIMG__/img/wallpapers/main.jpg',
-                mobile: '__WIMG__/img/wallpapers/mobile.jpg',
-            });
-
-            Win10.setAnimated([
-                'animated flip',
-                'animated bounceIn',
-            ], 0.01);
-            setTimeout(function () {
-                Win10.newMsg('推荐全屏', '按下F11全屏以达到最佳视觉效果(点击进入)',function () {
-                    Win10.enableFullScreen();
-                })
-            }, 1500)
+        //设置壁纸
+        Win10.setBgUrl({
+            main: '__WIMG__/img/wallpapers/main.jpg',
+            mobile: '__WIMG__/img/wallpapers/mobile.jpg',
         });
-    </script>
-</head>
-<body>
+
+        Win10.setAnimated([
+            'animated flip',
+            'animated bounceIn',
+        ], 0.01);
+        setTimeout(function () {
+            Win10.newMsg('推荐全屏', '按下F11全屏以达到最佳视觉效果(点击进入)',function () {
+                Win10.enableFullScreen();
+            })
+        }, 1500)
+    });
+</script>
 <div id="win10">
     <div class="desktop">
         <div id="win10-shortcuts" class="shortcuts-hidden">
@@ -98,5 +83,4 @@
         </div>
     </div>
 </div>
-</body>
-</html>
+{include file="default/public/footer" /}
