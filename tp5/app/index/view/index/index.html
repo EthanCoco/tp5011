@@ -4,17 +4,17 @@
         font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu
     }
 
-    /*磁贴自定义样式*/
-     .win10-block-content-text {
-         line-height: 44px;
-         text-align: center;
-         font-size: 16px;
-     }
+    /*Custom style with Magnet*/
+    .win10-block-content-text {
+        line-height: 44px;
+        text-align: center;
+        font-size: 16px;
+    }
 </style>
 <script>
+	//init home page function
     Win10.onReady(function () {
-
-        //设置壁纸
+        //set wallpaper
         Win10.setBgUrl({
             main: '__WIMG__/img/wallpapers/main.jpg',
             mobile: '__WIMG__/img/wallpapers/mobile.jpg',
@@ -32,22 +32,29 @@
     });
 </script>
 <div id="win10">
+	<!--desktop list menu-->
     <div class="desktop">
         <div id="win10-shortcuts" class="shortcuts-hidden">
-            {volist name="info" id="vo"}
-            	<div class="shortcut" ondblclick="Win10.openUrl('{$vo.openurl}')">
+            {volist name="desktopInfo" id="vo"}
+            	<div class="shortcut" ondblclick="Win10.openUrl('{$vo.openurl}','<i class=\'{$vo.fai}\'></i>{$vo.title}')">
 	                <img class="icon" src="{$vo.iconurl}"/>
 	                <div class="title">{$vo.title}</div>
 	            </div>
             {/volist}
         </div>
     </div>
+    
+    <!--bottom list menu-->
     <div id="win10-menu" class="hidden">
         <div class="list win10-menu-hidden animated animated-slideOutLeft">
-            <div class="item"
-                 onclick="Win10.exit()">
-                <i class="black icon fa fa-window-close fa-fw"></i>关闭
-            </div>
+            {volist name="menuInfo" id="vo"}
+	        <div style="color:{$vo.color}" class="item" onclick="Win10.openUrl('{$vo.openurl}','<i class=\'{$vo.fai}\'></i>{$vo.title}')">
+	        	<i class="{$vo.fai}"></i>
+	        	{$vo.title}
+	       	</div>
+            {/volist}
+            <div class="item" onclick="Win10.logout('{:url(\'index/logout\')}')"><i class="black icon fa fa-sign-out fa-fw"></i>退出</div>
+            <div class="item" onclick="Win10.exit()"><i class="black icon fa fa-power-off fa-fw"></i>关机</div>
         </div>
         <div class="blocks">
             <div class="menu_group">
@@ -63,6 +70,8 @@
         </div>
         <div id="win10-menu-switcher"></div>
     </div>
+    
+    <!--right messge block-->
     <div id="win10_command_center" class="hidden_right">
         <div class="title">
             <h4 style="float: left">消息中心 </h4>
@@ -70,6 +79,8 @@
         </div>
         <div class="msgs"></div>
     </div>
+    
+    <!--bottom button list-->
     <div id="win10_task_bar">
         <div id="win10_btn_group_left" class="btn_group">
             <div id="win10_btn_win" class="btn"><span class="fa fa-windows"></span></div>

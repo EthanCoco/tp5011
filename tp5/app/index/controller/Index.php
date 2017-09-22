@@ -1,25 +1,27 @@
 <?php
 namespace app\index\controller;
+use think\Session;
 use app\index\model\Index as I;
 class Index extends Base{
 	/*point home page*/
     public function index(){
-    	// get desktop table data to home page 
-    	$infos = I::listInfo();
-    	//definde jsonData array
-    	$jsonData = [];
-    	//create url
-    	foreach($infos as $info){
-    		$jsonData[] = [
-    			'openurl'	=>	url($info['openurl']),
-    			'iconurl'	=>	$info['iconurl'],
-    			'title'	=>	$info['title'],
-    		];
-    	}
-    	// assignment '$info' to 'index' page  
-    	$this->assign('info',$jsonData);
+    	// get all data to menu page 
+    	$menuInfos = I::listMenuInfo();
+    	//get use set desktop info to home page 
+    	$desktopInfos = I::listDesktopInfo(Session::get('uid'));
+    	
+    	// assignment information 'index' page  
+    	$this->assign(['menuInfo'=>$menuInfos,'desktopInfo'=>$desktopInfos]);
+    	
 		return $this->fetch('index/index');
     }
+    
+    /*logout this system*/
+    public function logout(){
+    	session_destroy();
+    	$this->redirect(url('index/login/login'));
+    }
+    
     
     /************************************************start work area**********************************************/
 	/*point user management page*/
