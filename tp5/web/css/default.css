@@ -251,7 +251,7 @@ body {
 }
 
 #win10-menu .list .sub-item{
-    padding-left:30px;
+    padding-left:60px;
     width: calc(100% - 40px);
 }
 
