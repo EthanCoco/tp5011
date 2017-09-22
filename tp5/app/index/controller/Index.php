@@ -41,6 +41,11 @@ class Index extends Base{
 	
 	/*point user management page*/
 	public function user(){
-		return $this->fetch('user/index');
+		return $this->fetch('index/user/user');
+	}
+	
+	/*point desktop set page*/
+	public function desktop(){
+		return $this->fetch('index/system/desktop');
 	}    
 }
