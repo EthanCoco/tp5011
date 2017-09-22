@@ -1,31 +1,135 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<title>登录界面</title>
-		<script src="__STATIC__/jquery-1.9.1.min.js"></script>
-		<script src="__STATIC__/md5.js"></script>
-	</head>
-	<body>
-		<div>
-			<p>用户名(<a id="">找回</a>)</p>
-			<input type="text" id="uname" placeholder="请输入用户名">
-			<p>密码(<a id="">忘记</a>)</p>
-			<input type="password" id="upass" placeholder="请输入密码">
-			<input type="checkbox" id="isAutoLogn" value="1">记住我
-			<button id="app">denglu</button>
-		</div>
-		
-		<script>
-			$(function(){
-				$("#app").click(function(){
-					var uname = $("#uname").val();
-					var upass = MD5($("#upass").val());
-					var isAutoLogn = $("#isAutoLogn").val();
-					
-				});
-			});
-			
-		</script>
-	</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户登录</title>
+    <link rel='Shortcut Icon' type='image/x-icon' href='__WIMG__/img/windows.ico'>
+    <script type="text/javascript" src="__WJS__/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" href="__CSS__/animate.css">
+	<link rel="stylesheet" href="__CSS__/toastr.min.css">
+    <style>
+        #win10-login {
+            background: url('__WIMG__/img/wallpapers/login.jpg') no-repeat fixed;
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%;
+            position: fixed;
+            z-index: -1;
+            top: 0;
+            left: 0;
+        }
+
+        #win10-login-box {
+            width: 300px;
+            overflow: hidden;
+            margin: 0 auto;
+        }
+
+        .win10-login-box-square {
+            width: 105px;
+            margin: 0 auto;
+            border-radius: 50%;
+            background-color: darkgray;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .win10-login-box-square::after {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+
+        .win10-login-box-square .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+        }
+
+        input {
+            width: 90%;
+            display: block;
+            border: 0;
+            margin: 0 auto;
+            line-height: 36px;
+            font-size: 20px;
+            padding: 0 1em;
+            border-radius: 5px;
+            margin-bottom: 11px;
+        }
+
+        .login-username, .login-password {
+            width: 91%;
+            font-size: 13px;
+            color: #999;
+        }
+
+        .login-password {
+            width: calc(91% - 54px);
+            -webkit-border-radius: 2px 0 0 2px;
+            -moz-border-radius: 2px 0 0 2px;
+            border-radius: 5px 0 0 5px;
+            margin: 0px;
+            float: left;
+        }
+
+        .login-submit {
+            margin: 0px;
+            float: left;
+            -webkit-border-radius: 0 5px 5px 0;
+            -moz-border-radius: 0 5px 5px 0;
+            border-radius: 0 5px 5px 0;
+            background-color: #009688;
+            width: 54px;
+            display: inline-block;
+            height: 36px;
+            line-height: 36px;
+            padding: 0 auto;
+            color: #fff;
+            white-space: nowrap;
+            text-align: center;
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            opacity: .9;
+            filter: alpha(opacity=90);
+
+        }
+    </style>
+</head>
+<body>
+<div id="win10-login">
+    <div style="height: 10%;min-height: 120px"></div>
+    <div id="win10-login-box">
+        <div class="win10-login-box-square">
+            <img src="__WIMG__/img/avatar.jpg" class="content"/>
+        </div>
+        <p style="font-size: 24px;color: white;text-align: center">用户登录</p>
+        <form>
+            <input type="text" placeholder="请输入登录名" name="ucount" class="login-username">
+            <input type="password" placeholder="请输入密码" name="upass" class="login-password">
+            <input type="button"  value="登录" id="btn-login" class="login-submit"/>
+        </form>
+    </div>
+</div>
+<script type="text/javascript" src="__STATIC__/component/layer-v3.0.3/layer/layer.js"></script>
+<script type="text/javascript" src="__JS__/bootstrap.min.js"></script>
+<script type="text/javascript" src="__JS__/toastr.min.js"></script>
+<script type="text/javascript" src="__JS__/md5.js"></script>
+<script>
+	$(function(){
+		$("#btn-login").bind('click',function(){
+			var ucount = $("input[name='ucount']").val();
+			var upass = $("input[name='upass']").val();
+			$.post("{:url('login/isLogin')}",{'ucount':ucount,'upass':MD5(upass)},function(data){
+				if(data.code == '200'){
+					location.href = "{:url('index/index')}"
+				}else{
+					toastr.error(data.msg);
+				}
+			},'json');
+		});
+	});
+</script>
+</body>
 </html>
