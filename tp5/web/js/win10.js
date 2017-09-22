@@ -703,6 +703,15 @@ window.Win10 = {
         });
 
     },
+    /*add by lijl 20170922 add function logout*/
+    logout:function (url) {
+    	layer.confirm(Win10.lang('确定要退出登录么?','Are you sure logout?'),{icon: 3, title:Win10.lang('提示','Prompt')},function(index){
+    		document.body.onbeforeunload = function(){};
+            window.location.href = url;
+            window.close();
+            layer.close(index);
+    	});
+    },
     lang:function (cn,en) {
         return this._lang==='zh-cn'||this._lang==='zh-tw'?cn:en;
     },
