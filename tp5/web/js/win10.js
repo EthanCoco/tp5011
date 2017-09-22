@@ -713,13 +713,13 @@ window.Win10 = {
             closeBtn: 1, //不显示关闭按钮
             anim: 2,
             skin: 'layui-layer-molv',
-            title: 'WIN10-UI v1.1.2',
+            title: '关于我们',
             shadeClose: true, //开启遮罩关闭
             area: ['420px', '240px'], //宽高
             content: '<div style="padding: 10px;font-size: 12px">' +
-            '<p>支持组件:layer、jquery、animated.css、font-awesome</p>' +
-            '<p>尤里2号©版权所有</p>' +
-            '<p>作者邮箱:yuri2peter@qq.com</p>' +
+            '<p>详细说明介绍</p>' +
+            '<p>©版权所有</p>' +
+            '<p>联系邮箱:1111111@qq.com</p>' +
             '</div>'
         });
     },
