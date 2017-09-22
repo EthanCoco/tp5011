@@ -54,3 +54,17 @@ function mkdirs($dir, $mode = 0777){
     if (!mkdirs(dirname($dir), $mode)) return FALSE;
     return @mkdir($dir, $mode);
 } 
+
+/**
+ * Random color code generation 
+ */
+function randrgb() { 
+  	$str='0123456789ABCDEF'; 
+    $estr='#'; 
+    $len=strlen($str); 
+    for($i=1;$i<=6;$i++){ 
+        $num=rand(0,$len-1);   
+        $estr=$estr.$str[$num];  
+    } 
+    return $estr; 
+} 
