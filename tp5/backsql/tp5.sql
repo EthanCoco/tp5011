@@ -10,10 +10,55 @@ Target Server Type    : MYSQL
 Target Server Version : 50553
 File Encoding         : 65001
 
-Date: 2017-09-21 20:49:52
+Date: 2017-09-22 18:05:51
 */
 
 SET FOREIGN_KEY_CHECKS=0;
+
+-- ----------------------------
+-- Table structure for blog_desktop
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_desktop`;
+CREATE TABLE `blog_desktop` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `openurl` varchar(100) NOT NULL,
+  `iconurl` varchar(100) NOT NULL,
+  `title` varchar(100) NOT NULL,
+  `status` tinyint(1) NOT NULL DEFAULT '1',
+  `ordersrot` int(11) NOT NULL DEFAULT '0',
+  `fai` varchar(50) NOT NULL,
+  `sysdef` tinyint(1) NOT NULL DEFAULT '0',
+  `menupid` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_desktop
+-- ----------------------------
+INSERT INTO `blog_desktop` VALUES ('1', 'index/user', '../../../web/images/img/icon/user.png', '用户管理', '1', '2', 'black icon fa fa-user fa-fw', '0', '3');
+INSERT INTO `blog_desktop` VALUES ('2', 'index/desktop', '../../../web/images/img/icon/system.png', '桌面设置', '1', '1', 'black icon fa fa-wrench fa-fw', '0', '2');
+INSERT INTO `blog_desktop` VALUES ('3', 'index/system', '../../../web/images/img/icon/system.png', '测试数据', '1', '3', 'black icon fa fa-wrench fa-fw', '0', '2');
+INSERT INTO `blog_desktop` VALUES ('4', 'index/comwebsite', '../../../web/images/img/icon/website.png', '公司网站', '1', '0', 'black icon fa fa-desktop fa-fw', '1', '1');
+INSERT INTO `blog_desktop` VALUES ('5', 'index/usermanual', '../../../web/images/img/icon/usersc.png', '用户手册', '1', '0', 'black icon fa fa-book fa-fw', '1', '1');
+INSERT INTO `blog_desktop` VALUES ('6', 'index/help', '../../../web/images/img/icon/help.png', '其他帮助', '1', '0', 'black icon fa fa-question-circle fa-fw', '1', '1');
+
+-- ----------------------------
+-- Table structure for blog_menu_floder
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_menu_floder`;
+CREATE TABLE `blog_menu_floder` (
+  `mid` int(11) NOT NULL AUTO_INCREMENT,
+  `mfa` varchar(100) NOT NULL,
+  `mname` varchar(50) NOT NULL,
+  PRIMARY KEY (`mid`)
+) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_menu_floder
+-- ----------------------------
+INSERT INTO `blog_menu_floder` VALUES ('1', '', '系统默认');
+INSERT INTO `blog_menu_floder` VALUES ('2', '', '系统设置');
+INSERT INTO `blog_menu_floder` VALUES ('3', '', '用户');
 
 -- ----------------------------
 -- Table structure for blog_msg
@@ -137,5 +182,21 @@ CREATE TABLE `blog_user` (
 -- ----------------------------
 -- Records of blog_user
 -- ----------------------------
-INSERT INTO `blog_user` VALUES ('1', 'lijianlin', '82bdc4f63cfa37b7335c0f478310c088', '李建林', '2319048747@qq.com', '0000-00-00 00:00:00', '', '1', '2', '11111', null);
+INSERT INTO `blog_user` VALUES ('1', 'lijianlin', '82bdc4f63cfa37b7335c0f478310c088', '李建林', '2319048747@qq.com', '2017-09-22 15:25:23', '2130706433', '1', '2', '11111', null);
 INSERT INTO `blog_user` VALUES ('31', 'blog', '82bdc4f63cfa37b7335c0f478310c088', '团队', '', '0000-00-00 00:00:00', '', '1', '1', null, null);
+
+-- ----------------------------
+-- Table structure for blog_user_desktop
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_user_desktop`;
+CREATE TABLE `blog_user_desktop` (
+  `udid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `uid` bigint(20) NOT NULL,
+  `desktopid` int(11) DEFAULT NULL,
+  PRIMARY KEY (`udid`)
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_user_desktop
+-- ----------------------------
+INSERT INTO `blog_user_desktop` VALUES ('3', '1', '1');
