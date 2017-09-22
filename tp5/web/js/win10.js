@@ -321,11 +321,13 @@ window.Win10 = {
                 e=e.next();
             }
         });
+        
+        /*add by lijl 添加默认网页*/
         $("#win10-btn-browser").click(function () {
             layer.prompt({
                 title: Win10.lang('访问网址','Visit URL'),
                 formType: 2,
-                value: '',
+                value: 'https://www.baidu.com',
                 skin:'win10-layer-open-browser',
                 area: ['300px', '150px'],
                 zIndex:99999999999
@@ -334,6 +336,7 @@ window.Win10 = {
                 Win10.openUrl(value,value,Win10.isSmallScreen()?'max':false)
             });
         });
+        
         setInterval(function () {
             var myDate = new Date();
             var year=myDate.getFullYear();
