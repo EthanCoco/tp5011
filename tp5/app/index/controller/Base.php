@@ -6,7 +6,7 @@ class Base extends \think\Controller{
     /*初始化操作*/
     public function _initialize(){
     	//开发阶段使用
-    	Session::set('uid',1);
+    	//Session::set('uid',1);
     	//获取session ID
 		$sessionLogin = Session::get('uid');
 		//判断是否登录状态

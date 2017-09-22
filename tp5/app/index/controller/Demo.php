@@ -8,7 +8,7 @@ use think\Validate;
 
 //在任何地方使用静态方法进行模板变量赋值
 \think\View::share(['share1'=>'share1']);
-class Demo extends Base{
+class Demo extends \think\Controller{
 	
 	//空操作
 	public function _empty($name){

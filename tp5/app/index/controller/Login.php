@@ -9,71 +9,70 @@ use think\Validate;
 use app\index\model\User;
 class Login extends Base{
 	public function _initialize(){
-		//重写父方法，避免认证
+		//rewrite parent initialize function
 	}
 	
-	/*登录页面*/
+	/*point login page*/
 	public function login(){
 		return $this->fetch('login/login');
 	}
 	
-	/*登录*/
+	/*login*/
 	public function isLogin(){
-		//用户账户
+		// user acount
 		$ucount = $this->request->post('ucount');
-		//密码
+		// user password 
 		$upass = $this->request->post('upass');
-		//是否自动登录
-		$isAutoLogin = intval($this->request->post('isAutoLogn',0));
-		//规则登录场景验证
+		//is auto login 
+		//$isAutoLogin = intval($this->request->post('isAutoLogn',0));
+		//validate the login rule of scene
 		$this->myValidate(['ucount'=>$ucount,'upass'=>$upass],'User.login');
-		
-		//通过账号获取用户信息
+		//get user data by user acount 
 		$info = User::findByKey('ucount',$ucount);
 		
-		//判断数据是否为空，如果为空则账号不存在
+		// if data is empty then show user acount is not exists
 		if(!empty($info)){
-			//密码加密处理
+			//user password encryption with md5
 			$realUpass =  MD5(hash('sha256', $upass));
-			//判断密码是否相等
+			//is same with user data of password
 			if($realUpass != $info['upass']){
 				$result = ['code'=>300,'msg'=>'密码不正确'];
-			//判断账号是否被禁用
+			//the acount is disable
 			}elseif($info['ustatus'] == 0){
 				$result = ['code'=>300,'msg'=>'账号被禁用'];
 			}else{
-				//返回成功数据
+				//return data
 				$result = ['code'=>200,'msg'=>'登录成功'];
-				//设置session
-				//用户ID
+				//set session
+				//user ID
 				Session::set('uid',$info['uid']);
-				//账号
+				//acount
 				Session::set('ucount',$info['ucount']);
-				//昵称
+				//nickname 
 				Session::set('uname',$info['uname']);
-				//邮箱
+				//email 
 				Session::set('uemail',$info['uemail']);
-				//用户类型
+				//user type 
 				Session::set('utype',$info['utype']);
-				//用户头像地址
+				//user head image url 
 				Session::set('uimageurl',$info['uimageurl']);
-				//判断是否自动登录
-				if($isAutoLogin == 1){
-					//设置自动登录过期时间
-					Cache::set($ucount, 1,Config::get('self.auto_login_time'));
-				}
-				//更新登录记录
-				//最后登录时间
+				//auot login is true 
+				//if($isAutoLogin == 1){
+					//set the auto login of the expiration date 
+				//	Cache::set($ucount, 1,Config::get('self.auto_login_time'));
+				//}
+				//update login record
+				//last login time 
 				$data['ulasttime'] = date('Y-m-d H:i:s',time());
-				//最后登录IP
-				$data['uip'] = ip2long(get_client_ip());
-				//更新
+				//last login ip 
+				$data['uip'] = ip2long($this->request->ip());
+				//update information
 				User::updateById($info['uid'],$data);
 			}
 		}else{
 			$result = ['code'=>300,'msg'=>'账号不存在'];
 		}
-		//返回结果
+		//return result
 		return $this->myInfo($result);
 	}
 	
