@@ -4,7 +4,7 @@ use think\Model;
 use think\Db;
 class Desktop extends Model{
 	/*修改邮箱*/
-	public static function getListInfo($id = 0,$uid){
+	public static function getListInfo($uid){
 		$items = [];
 		$result = [];
 		$folders = Db::name('menuFolder')->select();

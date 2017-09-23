@@ -1,13 +1,42 @@
 {include file="default/public/children" /}
+<table id="desktop" fit="true"  toolbar="#toolbar" >
+	<thead>
+	</thead>
+</table>
+<div id="toolbar" style="padding:5px">
+	<a href="#" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="addAlbum()">添加</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-edit" plain="true" onclick="editAlbum()">修改</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-remove" plain="true" onclick="deleteAlbum()">删除</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-save" plain="true" onclick="saveAlbum()">保存</a>
+	<a href="#" class="easyui-linkbutton" iconCls="icon-undo" plain="true" onclick="cancelAlbum()">取消</a>
+</div>
 
-
-
-
-fdafdfdf
-
-
-
-
+<script>
+	$(function(){
+		$('#desktop').treegrid({    
+			url:"{:url('desktop/listInfo')}",    
+			idField:'id',    
+			treeField:'name',   
+			fit: true,
+			fitColumns:true,
+			rownumbers:true,
+			resizeHandle:'both',
+			singleSelect:false,
+			frozenColumns:[[
+		   		{field:'ck',checkbox:true},
+		    	{field:'name',title:'名称',align:'center',width:200},
+		    ]] ,
+			columns:[[    
+				{field:'id',title:'ID属性',width:'5%',align:'center',hidden:true} , 
+			    {field:'openurl',title:'地址',align:'center',width:'30%'},    
+				{field:'iconurl',title:'图标',align:'center',width:'10%'},    
+				{field:'sysdef',title:'系统默认',align:'center',width:'18%'},   
+				{field:'indesktop',title:'显示桌面',align:'center',width:'18%'},
+			]]    
+		}); 
+	});	
+	
+</script>
 
 
 
