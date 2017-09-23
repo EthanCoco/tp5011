@@ -6,31 +6,31 @@ class Index extends Model{
 	public static function listMenuInfo(){
 		$folders = Db::name('menuFolder')->select();
 		$jsonData = [];
-		$index = 0;
 		foreach($folders as $f){
-			$jsonData[$index] = [
-				'name' 		=> 	$f['mname'],
-				'mfa'  		=> 	$f['mfa'],
-				'mcolor'	=>	randrgb()
-			];
 			$infos = Db::name('desktop')
 									->field('openurl,iconurl,title,fai')
 									->where('status',1)
 									->where('menupid',$f['mid'])
 									->order('ordersrot')
 									->select();
-			$tempData = [];
-	    	foreach($infos as $info){
-	    		$tempData[] = [
-	    			'openurl'	=>	url($info['openurl']),
-	    			'iconurl'	=>	$info['iconurl'],
-	    			'title'		=>	$info['title'],
-	    			'color'		=>	randrgb(),
-	    			//'fai'		=>	$info['fai'],
-	    		];
-	    	}
-			$jsonData[$index]['sub'] = $tempData;
-			$index++;
+			if(!empty($infos)){
+				$tempData = [];
+		    	foreach($infos as $info){
+		    		$tempData[] = [
+		    			'openurl'	=>	url($info['openurl']),
+		    			'iconurl'	=>	$info['iconurl'],
+		    			'title'		=>	$info['title'],
+		    			'color'		=>	randrgb(),
+		    			//'fai'		=>	$info['fai'],
+		    		];
+		    	}
+		    	$jsonData[] = [
+					'name' 		=> 	$f['mname'],
+					'mfa'  		=> 	$f['mfa'],
+					'mcolor'	=>	randrgb(),
+					'sub'		=>  $tempData
+				];
+			}
 		}
 		//dump($jsonData);exit;
 		return $jsonData;
