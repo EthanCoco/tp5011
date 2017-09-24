@@ -3,7 +3,6 @@ namespace app\index\model;
 use think\Model;
 use think\Db;
 class Desktop extends Model{
-	/*修改邮箱*/
 	public static function getListInfo($uid){
 		$items = [];
 		$result = [];
@@ -53,6 +52,7 @@ class Desktop extends Model{
 					'openurl'	=>	$sub['openurl'],
 					'iconurl'	=>	"<img class='icon' style='display: inline-block; vertical-align: middle;' width='20' height='20' src='".$sub['iconurl']."' />",
 					'sysdef'	=>	$sub['sysdef'] == 1 ? '是' : '否',
+					'sysdef_no'	=>	$sub['sysdef'],
 					'indesktop'	=>	($sub['sysdef'] == 1) ? (!empty($sub['udid']) ? '不显示' : '显示') : (!empty($sub['udid']) ? '显示' : '不显示'  )
 				];
 			}
@@ -69,5 +69,49 @@ class Desktop extends Model{
 		}
 		return ['rows'=>$result];
 	}
+	
+	public static function showHide($uid,$type,$def0,$def1){
+		$def0_len = count($def0);
+		$def1_len = count($def1);
+		if($type == 0){
+			if($def0_len > 0){
+				Db::name('userDesktop')->where('uid',$uid)->where('desktopid','in',$def0)->delete();
+				$data = [];
+				for($i = 0; $i < $def0_len; $i++){
+					$data[] = [
+						'uid' 		=>	$uid,
+						'desktopid' =>	$def0[$i]
+					];
+				}
+				Db::name('userDesktop')->insertAll($data);
+			}
+			if($def1_len > 0){
+				Db::name('userDesktop')->where('uid',$uid)->where('desktopid','in',$def1)->delete();
+			}
+			$result = ['code'=>200,'msg'=>'设置成功'];
+		}elseif($type == 1){
+			if($def0_len > 0){
+				Db::name('userDesktop')->where('uid',$uid)->where('desktopid','in',$def0)->delete();
+			}
+			if($def1_len > 0){
+				Db::name('userDesktop')->where('uid',$uid)->where('desktopid','in',$def1)->delete();
+				$data = [];
+				for($i = 0; $i < $def1_len; $i++){
+					$data[] = [
+						'uid' 		=>	$uid,
+						'desktopid' =>	$def1[$i]
+					];
+				}
+				Db::name('userDesktop')->insertAll($data);
+			}
+			$result = ['code'=>200,'msg'=>'设置成功'];
+		}else{
+			$result = ['code'=>300,'msg'=>'非法操作'];
+		}
+		return $result;
+	}
+	
+	
+	
 }
 

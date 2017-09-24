@@ -56,6 +56,9 @@ class Login extends Base{
 				Session::set('utype',$info['utype']);
 				//user head image url 
 				Session::set('uimageurl',$info['uimageurl']);
+				//User login times
+				Session::set('ulogintime',intval($info['ulogintime']) + 1);
+				
 				//auot login is true 
 				//if($isAutoLogin == 1){
 					//set the auto login of the expiration date 
@@ -66,6 +69,8 @@ class Login extends Base{
 				$data['ulasttime'] = date('Y-m-d H:i:s',time());
 				//last login ip 
 				$data['uip'] = ip2long($this->request->ip());
+				//update login times
+				$data['ulogintime'] = intval($info['ulogintime']) + 1;
 				//update information
 				User::updateById($info['uid'],$data);
 			}

@@ -24,12 +24,43 @@
             'animated flip',
             'animated bounceIn',
         ], 0.01);
-        setTimeout(function () {
-            Win10.newMsg('推荐全屏', '按下F11全屏以达到最佳视觉效果(点击进入)',function () {
+    });
+    
+    var logintimes = '<?php echo session('ulogintime') ?>';
+    if(logintimes == 1){
+		setTimeout(function () {
+            Win10.newMsg(0,'推荐全屏', '按下F11全屏以达到最佳视觉效果(点击进入)',function () {
                 Win10.enableFullScreen();
             })
-        }, 1500)
-    });
+        }, 1500);
+	}
+    setInterval(function(){
+    	var mids = [];
+    	$.post("{:url('index/showMsgInfo')}",{},function(json){
+	    	var msg_len = json.length;
+	    	if(msg_len > 0){
+	    		$('#win10_command_center .msg').each(function(){
+	    			var type = $(this).attr('type');
+	    			var msgid = $(this).attr('msgid');
+	    			if(typeof msgid !== "undefined" && msgid != ""){
+	    				mids.push(parseInt(msgid)) ;
+	    			}
+				});
+				for(var i = 0; i < msg_len; i++){
+					if($.inArray(json[i].msgid,mids) == "-1"){
+						if(json[i].fun  == ""){
+		    				Win10.newMsg(json[i].type,json[i].title,json[i].content,function(){},json[i].msgid);
+		    			}else{
+		    				var fun = json[i].fun;
+		    				Win10.newMsg(json[i].type,json[i].title,json[i].content,function(){
+			    				eval("("+fun+")");
+			    			},json[i].msgid);
+		    			}
+					}
+				}
+	    	}
+		});
+    },60000*5);
 </script>
 <div id="win10">
 	<!--desktop list menu-->

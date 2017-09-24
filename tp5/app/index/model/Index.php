@@ -69,5 +69,30 @@ class Index extends Model{
 		return $jsonData;
 	}
 	
+	public static function listMessage($uid){
+		$unionQuery  = Db::name('newmsg')->alias('a')
+										 ->field('a.msgid,a.title,a.content,a.fun,a.type,a.sendid,a.reciveid,a.status,a.sendtime,0 id')
+										 ->where('a.status',0)
+										 ->where('a.reciveid',$uid)
+										 ->where('a.type',2)
+										 ->order('sendtime desc')
+										 ->select(false);
+		$infos = Db::name('newmsg')->alias('a')
+								   ->join('__USER_NEWMSG__ b','b.msgid=a.msgid and b.uid='.$uid,'left')
+								   ->where('a.type',1)
+								   ->where('uid is null')
+								   ->field('a.msgid,a.title,a.content,a.fun,a.type,a.sendid,a.reciveid,a.status,a.sendtime,b.id')
+								   ->union($unionQuery,true)
+								   ->select();
+		return $infos;
+	}
+	
+	public static function readMsg($type,$extra,$uid){
+		if($type == 1){
+			Db::name('userNewmsg')->insert(['uid'=>$uid,'msgid'=>$extra,'status'=>1]);
+		}elseif($type == 2){
+			Db::name('newmsg')->where('msgid',$extra)->update(['status'=>1]);
+		}
+	}
 	
 }

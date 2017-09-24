@@ -16,6 +16,26 @@ class Index extends Base{
 		return $this->fetch('index/index');
     }
     
+    /*show user messsage for not read*/
+    public function showMsgInfo(){
+    	// get user not read message include friend nessage and system message 
+    	$infos = I::listMessage(Session::get('uid'));
+    	// return results
+    	return $this->myInfo($infos);
+    }
+    
+    /*read msg*/
+    public function readMsg(){
+    	// the message type
+    	$type = $this->request->post('type');
+    	// will deal with data id
+    	$extra = $this->request->post('extra');
+    	// deal and do something
+    	I::readMsg($type,$extra,Session::get('uid'));
+    	// return the result
+    	return $this->myInfo(['code'=>200]);
+    }
+    
     /*logout this system*/
     public function logout(){
     	session_destroy();
