@@ -389,6 +389,7 @@ window.Win10 = {
             ['<i class="fa fa-fw fa-window-maximize"></i> 进入全屏',function () {Win10.enableFullScreen()}],
             ['<i class="fa fa-fw fa-window-restore"></i> 退出全屏',function () {Win10.disableFullScreen()}],
             '|',
+            ['<i class="fa fa-fw fa-refresh"></i> 刷新',function () {Win10.refreshScreen()}],
             ['<i class="fa fa-fw fa-star"></i> 关于',function () {Win10.aboutUs()}],
         ]);
         Win10.setContextMenu('#win10_btn_group_middle',[
@@ -478,11 +479,11 @@ window.Win10 = {
             this.commandCenterClose();
         }
     },
-    newMsg: function (title, content,handle_click) {
-        var e = $('<div class="msg">' +
+    newMsg: function (type,title, content,handle_click,extra = '') {
+        var e = $('<div class="msg" type='+type+' msgid='+extra+'>' +
             '<div class="title">' + title +'</div>'+
             '<div class="content">' + content + '</div>' +
-            '<span class="btn_close_msg fa fa-close"></span>' +
+            '<span class="btn_close_msg fa fa-close" onclick="Win10.clearHandle('+type+','+extra+')"></span>' +
             '</div>');
         $("#win10_command_center .msgs").prepend(e);
         e.find('.content:first,.title:first').click(function () {
@@ -497,6 +498,14 @@ window.Win10 = {
         if($("#win10_command_center").hasClass('hidden_right')){
             $("#win10-msg-nof").addClass('fa-commenting-o');
         }
+    },
+    //add by lijl 20170924
+    clearHandle:function(type,extra = ''){
+    	if(type == 0){
+    		return ;
+    	}else{
+    		$.post("readMsg",{'type':type,'extra':extra},function(json){});
+    	}
     },
     getLayeroByIndex: function (index) {
         return $('#' + 'layui-layer' + index)
@@ -541,6 +550,11 @@ window.Win10 = {
             document.msExitFullscreen();
         }
     },
+    //add by lijl 20170923
+    refreshScreen: function(){
+    	document.location.reload();
+    },
+    
     buildList:function () {
         $("#win10-menu .list .sub-item").slideUp();
         $("#win10-menu .list .item").each(function () {
