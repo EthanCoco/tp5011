@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : localhostphpstudy
-Source Server Version : 50553
+Source Server         : 192.168.1.10
+Source Server Version : 50617
 Source Host           : localhost:3306
 Source Database       : tp5
 
 Target Server Type    : MYSQL
-Target Server Version : 50553
+Target Server Version : 50617
 File Encoding         : 65001
 
-Date: 2017-09-22 18:05:51
+Date: 2017-10-10 08:30:04
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -43,22 +43,23 @@ INSERT INTO `blog_desktop` VALUES ('5', 'index/usermanual', '../../../web/images
 INSERT INTO `blog_desktop` VALUES ('6', 'index/help', '../../../web/images/img/icon/help.png', '其他帮助', '1', '0', 'black icon fa fa-question-circle fa-fw', '1', '1');
 
 -- ----------------------------
--- Table structure for blog_menu_floder
+-- Table structure for blog_menu_folder
 -- ----------------------------
-DROP TABLE IF EXISTS `blog_menu_floder`;
-CREATE TABLE `blog_menu_floder` (
+DROP TABLE IF EXISTS `blog_menu_folder`;
+CREATE TABLE `blog_menu_folder` (
   `mid` int(11) NOT NULL AUTO_INCREMENT,
-  `mfa` varchar(100) NOT NULL,
   `mname` varchar(50) NOT NULL,
+  `mfa` varchar(50) DEFAULT NULL,
   PRIMARY KEY (`mid`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
--- Records of blog_menu_floder
+-- Records of blog_menu_folder
 -- ----------------------------
-INSERT INTO `blog_menu_floder` VALUES ('1', '', '系统默认');
-INSERT INTO `blog_menu_floder` VALUES ('2', '', '系统设置');
-INSERT INTO `blog_menu_floder` VALUES ('3', '', '用户');
+INSERT INTO `blog_menu_folder` VALUES ('1', '系统默认', 'icon fa fa-question-circle fa-fw');
+INSERT INTO `blog_menu_folder` VALUES ('2', '系统设置', 'icon fa fa-wrench fa-fw');
+INSERT INTO `blog_menu_folder` VALUES ('3', '用户', 'icon fa fa-user fa-fw');
+INSERT INTO `blog_menu_folder` VALUES ('4', '测试', 'icon fa fa-user fa-fw');
 
 -- ----------------------------
 -- Table structure for blog_msg
@@ -83,6 +84,32 @@ INSERT INTO `blog_msg` VALUES ('2', '1', '测试测试11', '测试测试测绘�
 INSERT INTO `blog_msg` VALUES ('3', '31', '测试测试22', '测试测试测绘师肯定好看的方式的合法的开始防守打法你到时', '2017-09-19 10:44:11', '1', '1');
 INSERT INTO `blog_msg` VALUES ('4', '31', '测试测试22', '测试测试测绘师肯定好看的方式的合法的开始防守打法你到时', '2017-09-19 10:44:13', '1', '1');
 INSERT INTO `blog_msg` VALUES ('5', '31', 'sdasdasd', 'asdasdasd', '2017-09-07 14:31:07', '1', '1');
+
+-- ----------------------------
+-- Table structure for blog_newmsg
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_newmsg`;
+CREATE TABLE `blog_newmsg` (
+  `msgid` bigint(20) NOT NULL AUTO_INCREMENT,
+  `title` varchar(100) DEFAULT NULL,
+  `content` text,
+  `fun` varchar(100) DEFAULT NULL,
+  `type` tinyint(1) DEFAULT NULL,
+  `sendid` bigint(20) DEFAULT NULL,
+  `reciveid` bigint(20) DEFAULT NULL,
+  `status` tinyint(1) DEFAULT '0',
+  `sendtime` timestamp NULL DEFAULT NULL,
+  PRIMARY KEY (`msgid`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_newmsg
+-- ----------------------------
+INSERT INTO `blog_newmsg` VALUES ('1', '系统消息测试', '系统消息系统消息系统消息', null, '1', null, null, '0', '2017-09-22 15:26:15');
+INSERT INTO `blog_newmsg` VALUES ('2', '系统消息测试2', '系统消息测试2系统消息测试2', 'Win10.enableFullScreen()', '1', null, null, '0', '2017-09-13 15:26:21');
+INSERT INTO `blog_newmsg` VALUES ('3', 'gfdgfdgdf', 'gfgfdgfdgdfgf', null, '2', '2', '1', '0', '2017-09-24 15:14:55');
+INSERT INTO `blog_newmsg` VALUES ('4', 'dfsds', 'gsgsfgsg', null, '2', '2', '1', '0', null);
+INSERT INTO `blog_newmsg` VALUES ('5', 'ffdsfsdf', 'dfsdfsdf', null, '2', '2', '1', '0', null);
 
 -- ----------------------------
 -- Table structure for blog_test
@@ -174,6 +201,7 @@ CREATE TABLE `blog_user` (
   `utype` int(1) NOT NULL DEFAULT '2' COMMENT '用户类别（0=超级管理员，1=其他管理人员，2=普通用户）',
   `uimageurl` varchar(255) DEFAULT NULL COMMENT '用户图片地址',
   `uregtime` timestamp NULL DEFAULT NULL COMMENT '注册时间',
+  `ulogintime` bigint(20) NOT NULL DEFAULT '0',
   PRIMARY KEY (`uid`),
   UNIQUE KEY `ucount` (`ucount`),
   UNIQUE KEY `uemail` (`uemail`)
@@ -182,8 +210,8 @@ CREATE TABLE `blog_user` (
 -- ----------------------------
 -- Records of blog_user
 -- ----------------------------
-INSERT INTO `blog_user` VALUES ('1', 'lijianlin', '82bdc4f63cfa37b7335c0f478310c088', '李建林', '2319048747@qq.com', '2017-09-22 15:25:23', '2130706433', '1', '2', '11111', null);
-INSERT INTO `blog_user` VALUES ('31', 'blog', '82bdc4f63cfa37b7335c0f478310c088', '团队', '', '0000-00-00 00:00:00', '', '1', '1', null, null);
+INSERT INTO `blog_user` VALUES ('1', 'lijianlin', '82bdc4f63cfa37b7335c0f478310c088', '李建林', '2319048747@qq.com', '2017-09-24 14:52:23', '2130706433', '1', '2', '11111', null, '1');
+INSERT INTO `blog_user` VALUES ('31', 'blog', '82bdc4f63cfa37b7335c0f478310c088', '团队', '', '0000-00-00 00:00:00', '', '1', '1', null, null, '0');
 
 -- ----------------------------
 -- Table structure for blog_user_desktop
@@ -194,9 +222,31 @@ CREATE TABLE `blog_user_desktop` (
   `uid` bigint(20) NOT NULL,
   `desktopid` int(11) DEFAULT NULL,
   PRIMARY KEY (`udid`)
-) ENGINE=MyISAM AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=45 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of blog_user_desktop
 -- ----------------------------
-INSERT INTO `blog_user_desktop` VALUES ('3', '1', '1');
+INSERT INTO `blog_user_desktop` VALUES ('43', '1', '5');
+INSERT INTO `blog_user_desktop` VALUES ('44', '1', '4');
+INSERT INTO `blog_user_desktop` VALUES ('9', '1', '2');
+INSERT INTO `blog_user_desktop` VALUES ('42', '1', '6');
+INSERT INTO `blog_user_desktop` VALUES ('35', '1', '1');
+
+-- ----------------------------
+-- Table structure for blog_user_newmsg
+-- ----------------------------
+DROP TABLE IF EXISTS `blog_user_newmsg`;
+CREATE TABLE `blog_user_newmsg` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `uid` bigint(20) DEFAULT NULL,
+  `msgid` bigint(20) DEFAULT NULL,
+  `status` tinyint(1) DEFAULT '1',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8;
+
+-- ----------------------------
+-- Records of blog_user_newmsg
+-- ----------------------------
+INSERT INTO `blog_user_newmsg` VALUES ('1', '1', '1', '1');
+INSERT INTO `blog_user_newmsg` VALUES ('4', '1', '2', '1');

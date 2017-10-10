@@ -1,0 +1,1540 @@
+---------------------------------------------------------------
+[ 2017-09-21T23:04:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/
+[ info ] 127.0.0.1/tp5/web/ [运行时间：0.751558s][吞吐率：1.33req/s] [内存消耗：1,951.59kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:10:02+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.444546s][吞吐率：2.25req/s] [内存消耗：2,955.18kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.046282s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:11:29+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.121038s][吞吐率：8.26req/s] [内存消耗：2,954.63kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:12:11+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.126184s][吞吐率：7.92req/s] [内存消耗：2,954.82kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000826s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:12:58+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.264033s][吞吐率：3.79req/s] [内存消耗：2,954.62kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000872s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:14:18+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.076861s][吞吐率：13.01req/s] [内存消耗：2,953.93kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001744s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:14:55+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.227114s][吞吐率：4.40req/s] [内存消耗：3,261.91kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '16',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.005466s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'lijianlin' LIMIT 1 [ RunTime:0.008800s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:15:17+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/ucountIsReg
+[ info ] 127.0.0.1/tp5/web/index/login/ucountIsReg [运行时间：0.088067s][吞吐率：11.36req/s] [内存消耗：3,261.85kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ucountIsReg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '16',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin',
+)
+[ info ] [ RUN ] app\index\controller\Login->ucountIsReg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.048225s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'lijianlin' LIMIT 1 [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:15:38+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.128234s][吞吐率：7.80req/s] [内存消耗：2,955.03kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:15:50+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.026421s][吞吐率：37.85req/s] [内存消耗：2,015.83kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:16:03+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.128257s][吞吐率：7.80req/s] [内存消耗：2,955.13kb] [文件加载：61]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000846s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 La table 'tp5.blog_' n'existe pas[D:\wamp\www\tp5\think5011\library\think\db\Connection.php:388]
+---------------------------------------------------------------
+[ 2017-09-21T23:20:02+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.187325s][吞吐率：5.34req/s] [内存消耗：3,281.76kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '88',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlin',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001058s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.096628s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlin' LIMIT 1 [ RunTime:0.000867s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:21:58+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.133544s][吞吐率：7.49req/s] [内存消耗：3,273.20kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000835s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.049831s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:22:34+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.098372s][吞吐率：10.17req/s] [内存消耗：3,282.16kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001095s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.056322s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:41:48+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：1.249563s][吞吐率：0.80req/s] [内存消耗：3,416.71kb] [文件加载：63]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT redis
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001159s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.028341s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000453s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000463s ]
+[ error ] [0]Redis server went away[D:\wamp\www\tp5\think5011\library\think\cache\driver\Redis.php:82]
+---------------------------------------------------------------
+[ 2017-09-21T23:43:15+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.133556s][吞吐率：7.49req/s] [内存消耗：3,287.24kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.089012s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000432s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:44:10+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.147814s][吞吐率：6.77req/s] [内存消耗：3,287.24kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.098527s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:44:47+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.130848s][吞吐率：7.64req/s] [内存消耗：3,287.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000846s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.090032s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:45:15+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.024843s][吞吐率：40.25req/s] [内存消耗：2,020.62kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:45:29+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.113272s][吞吐率：8.83req/s] [内存消耗：3,287.78kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.018421s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000515s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:45:52+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.139284s][吞吐率：7.18req/s] [内存消耗：3,287.21kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000943s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.098380s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000459s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:46:25+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.095138s][吞吐率：10.51req/s] [内存消耗：3,287.21kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000951s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.048717s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000532s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000449s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:47:02+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.128257s][吞吐率：7.80req/s] [内存消耗：3,287.39kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000837s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.080280s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000410s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:47:55+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.136250s][吞吐率：7.34req/s] [内存消耗：3,287.91kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000941s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.093242s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:48:28+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.126295s][吞吐率：7.92req/s] [内存消耗：3,287.95kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001234s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.080454s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000507s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:49:03+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.143352s][吞吐率：6.98req/s] [内存消耗：3,287.91kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.100549s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000444s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000608s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:49:14+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.088085s][吞吐率：11.35req/s] [内存消耗：3,287.89kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000952s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.046359s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000477s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:50:03+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.128201s][吞吐率：7.80req/s] [内存消耗：3,287.89kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.086607s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:50:15+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.140726s][吞吐率：7.11req/s] [内存消耗：3,287.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000818s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.095222s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:50:50+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.105614s][吞吐率：9.47req/s] [内存消耗：3,287.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000901s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.056839s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000681s ]
+---------------------------------------------------------------
+[ 2017-09-21T23:51:23+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.029163s][吞吐率：34.29req/s] [内存消耗：2,062.65kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:51:31+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028252s][吞吐率：35.40req/s] [内存消耗：2,061.49kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:51:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.030224s][吞吐率：33.09req/s] [内存消耗：2,086.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:52:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.031693s][吞吐率：31.55req/s] [内存消耗：2,086.45kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:52:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.033941s][吞吐率：29.46req/s] [内存消耗：2,050.06kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:53:17+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.030117s][吞吐率：33.20req/s] [内存消耗：2,050.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:54:21+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028719s][吞吐率：34.82req/s] [内存消耗：2,086.41kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:54:35+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.029169s][吞吐率：34.28req/s] [内存消耗：2,086.36kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:55:29+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.037447s][吞吐率：26.70req/s] [内存消耗：2,086.33kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:55:40+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028533s][吞吐率：35.05req/s] [内存消耗：2,050.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:55:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028869s][吞吐率：34.64req/s] [内存消耗：2,050.05kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:56:20+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028522s][吞吐率：35.06req/s] [内存消耗：2,050.41kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:56:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.034160s][吞吐率：29.27req/s] [内存消耗：2,086.67kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:57:58+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.034480s][吞吐率：29.00req/s] [内存消耗：2,050.45kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-21T23:58:39+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028863s][吞吐率：34.65req/s] [内存消耗：1,950.29kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File

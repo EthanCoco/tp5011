@@ -1,0 +1,2889 @@
+---------------------------------------------------------------
+[ 2017-09-22T00:00:05+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.028357s][吞吐率：35.26req/s] [内存消耗：2,050.27kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:00:45+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.039856s][吞吐率：25.09req/s] [内存消耗：2,050.30kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:00:55+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.030118s][吞吐率：33.20req/s] [内存消耗：2,050.41kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:01:17+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.043172s][吞吐率：23.16req/s] [内存消耗：2,050.72kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:01:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.076689s][吞吐率：13.04req/s] [内存消耗：1,748.97kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';'[D:\wamp\www\tp5\app\index\controller\Base.php:23]
+---------------------------------------------------------------
+[ 2017-09-22T00:01:54+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.027604s][吞吐率：36.23req/s] [内存消耗：1,986.36kb] [文件加载：47]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:02:09+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.034112s][吞吐率：29.32req/s] [内存消耗：1,748.95kb] [文件加载：44]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+[ error ] [4]语法错误: unexpected ';'[D:\wamp\www\tp5\app\index\controller\Base.php:23]
+---------------------------------------------------------------
+[ 2017-09-22T00:03:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.032584s][吞吐率：30.69req/s] [内存消耗：2,050.90kb] [文件加载：49]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:07:25+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.040153s][吞吐率：24.90req/s] [内存消耗：1,949.71kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:07:55+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.181782s][吞吐率：5.50req/s] [内存消耗：3,188.24kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001325s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.136304s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000483s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:08:18+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.147506s][吞吐率：6.78req/s] [内存消耗：3,287.32kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '41',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => '545345',
+  'upass' => '45345345',
+  'isAutoLogn' => '0',
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000909s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.102123s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = '545345' LIMIT 1 [ RunTime:0.000630s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:08:58+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.151043s][吞吐率：6.62req/s] [内存消耗：3,346.79kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001308s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.072798s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000422s ]
+[ error ] [4096]Object of class think\response\Json could not be converted to string[D:\wamp\www\tp5\app\index\controller\Base.php:40]
+---------------------------------------------------------------
+[ 2017-09-22T00:11:47+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.136489s][吞吐率：7.33req/s] [内存消耗：3,189.01kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '93',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000900s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.092615s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000570s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000548s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:11:54+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/reg
+[ info ] 127.0.0.1/tp5/web/index/login/reg [运行时间：0.147121s][吞吐率：6.80req/s] [内存消耗：3,278.55kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'reg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '96',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin020ewe4@126.com',
+  'verify' => '3213',
+  'ucount' => 'lijianlinewewe',
+  'uname' => '34234234',
+  'upass' => '4324234',
+)
+[ info ] [ RUN ] app\index\controller\Login->reg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000963s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.102801s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlinewewe' LIMIT 1 [ RunTime:0.000433s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin020ewe4@126.com' LIMIT 1 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:12:47+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.124580s][吞吐率：8.03req/s] [内存消耗：3,287.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '41',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => '545345',
+  'upass' => '45345345',
+  'isAutoLogn' => '0',
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000898s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.084575s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = '545345' LIMIT 1 [ RunTime:0.000557s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:13:04+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.136116s][吞吐率：7.35req/s] [内存消耗：3,286.98kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '41',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'sdsad',
+  'upass' => 'dadasdasd',
+  'isAutoLogn' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000852s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.095072s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'sdsad' LIMIT 1 [ RunTime:0.000643s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:13:28+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.138522s][吞吐率：7.22req/s] [内存消耗：3,286.98kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '41',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'sdsad',
+  'upass' => 'dadasdasd',
+  'isAutoLogn' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000899s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.099279s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'sdsad' LIMIT 1 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:13:35+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.027807s][吞吐率：35.96req/s] [内存消耗：1,948.78kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:13:39+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.125553s][吞吐率：7.96req/s] [内存消耗：3,286.98kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '41',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'sdsad',
+  'upass' => 'dadasdasd',
+  'isAutoLogn' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000981s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.085821s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'sdsad' LIMIT 1 [ RunTime:0.000567s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:13:47+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/isLogin
+[ info ] 127.0.0.1/tp5/web/index/login/isLogin [运行时间：0.088420s][吞吐率：11.31req/s] [内存消耗：3,287.04kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'isLogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '32',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'wqw',
+  'upass' => 'ww',
+  'isAutoLogn' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->isLogin[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.049573s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'wqw' LIMIT 1 [ RunTime:0.000514s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:17:47+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/ucountIsReg
+[ info ] 127.0.0.1/tp5/web/index/login/ucountIsReg [运行时间：0.114263s][吞吐率：8.75req/s] [内存消耗：3,187.13kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ucountIsReg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '16',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin',
+)
+[ info ] [ RUN ] app\index\controller\Login->ucountIsReg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000927s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.066621s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlin' LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:17:57+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/ucountIsReg
+[ info ] 127.0.0.1/tp5/web/index/login/ucountIsReg [运行时间：0.187050s][吞吐率：5.35req/s] [内存消耗：3,293.27kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ucountIsReg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin0000',
+)
+[ info ] [ RUN ] app\index\controller\Login->ucountIsReg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001069s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.138076s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = 'lijianlin0000' LIMIT 1 [ RunTime:0.000964s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'lijianlin0000' LIMIT 1 [ RunTime:0.001542s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:18:29+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/ucountIsReg
+[ info ] 127.0.0.1/tp5/web/index/login/ucountIsReg [运行时间：0.153636s][吞吐率：6.51req/s] [内存消耗：3,187.13kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'ucountIsReg',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '8',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Login->ucountIsReg[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.116985s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `ucount` = '1' LIMIT 1 [ RunTime:0.000475s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:19:39+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUemail
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUemail [运行时间：0.140598s][吞吐率：7.11req/s] [内存消耗：3,265.65kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUemail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '30',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUemail[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001054s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.101612s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000622s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:24:08+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUemail
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUemail [运行时间：0.121635s][吞吐率：8.22req/s] [内存消耗：2,073.22kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUemail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '30',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUemail[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 2 for app\index\controller\Base::myValidate(), called in D:\wamp\www\tp5\app\index\controller\Login.php on line 279 and defined[D:\wamp\www\tp5\app\index\controller\Base.php:27]
+---------------------------------------------------------------
+[ 2017-09-22T00:26:09+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUemail
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUemail [运行时间：0.035381s][吞吐率：28.26req/s] [内存消耗：2,074.13kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUemail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '30',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUemail[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [2]Missing argument 2 for app\index\controller\Base::myValidate(), called in D:\wamp\www\tp5\app\index\controller\Login.php on line 279 and defined[D:\wamp\www\tp5\app\index\controller\Base.php:27]
+---------------------------------------------------------------
+[ 2017-09-22T00:26:44+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUemail
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUemail [运行时间：0.029528s][吞吐率：33.87req/s] [内存消耗：1,924.80kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUemail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '30',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUemail[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:27:06+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUemail
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUemail [运行时间：0.121891s][吞吐率：8.20req/s] [内存消耗：3,187.12kb] [文件加载：55]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUemail',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '30',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'uemail' => 'lijianlin0204@126.com',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUemail[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001082s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.081242s ]
+[ sql ] [ SQL ] SELECT `uid` FROM `blog_user` WHERE  `uemail` = 'lijianlin0204@126.com' LIMIT 1 [ RunTime:0.000454s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:44:07+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.036642s][吞吐率：27.29req/s] [内存消耗：1,951.27kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '11',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'sdsd',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:44:25+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.023910s][吞吐率：41.82req/s] [内存消耗：1,951.27kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '16',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:44:45+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.023376s][吞吐率：42.78req/s] [内存消耗：1,951.29kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin0204',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T00:49:49+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.118842s][吞吐率：8.41req/s] [内存消耗：3,265.92kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '20',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin0204',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001195s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.072487s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'lijianlin0204' LIMIT 1 [ RunTime:0.000670s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:50:02+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.126783s][吞吐率：7.89req/s] [内存消耗：3,266.61kb] [文件加载：57]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '16',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001049s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_user` [ RunTime:0.073344s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_user` WHERE  `ucount` = 'lijianlin' LIMIT 1 [ RunTime:0.001399s ]
+---------------------------------------------------------------
+[ 2017-09-22T00:50:12+08:00 ] 127.0.0.1 127.0.0.1 POST /tp5/web/index/login/verifyUcount
+[ info ] 127.0.0.1/tp5/web/index/login/verifyUcount [运行时间：0.026321s][吞吐率：37.99req/s] [内存消耗：1,951.27kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'login',
+    2 => 'verifyUcount',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'application/json',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'referer' => 'http://127.0.0.1/tp5/dist/index.html',
+  'content-length' => '16',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'ucount' => 'lijianlin',
+)
+[ info ] [ RUN ] app\index\controller\Login->verifyUcount[ D:\wamp\www\tp5\app\index\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:04:00+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.350949s][吞吐率：2.85req/s] [内存消耗：3,242.18kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001131s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005108s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000440s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005799s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000754s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000490s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:04:16+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.165897s][吞吐率：6.03req/s] [内存消耗：3,511.68kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001249s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.007573s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.006766s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.001164s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000838s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.020820s ]
+[ error ] [8]未定义数组索引: color[D:\wamp\www\tp5\runtime\temp\52731baa098adc4d9e6b9a52ae1324cb.php:67]
+---------------------------------------------------------------
+[ 2017-09-22T22:10:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.130434s][吞吐率：7.67req/s] [内存消耗：3,502.52kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001536s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005720s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.014763s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000622s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000507s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000523s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000910s ]
+[ error ] [0]模板标签错误:volist[D:\wamp\www\tp5\think5011\library\think\template\TagLib.php:275]
+---------------------------------------------------------------
+[ 2017-09-22T22:11:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.081532s][吞吐率：12.27req/s] [内存消耗：3,456.96kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001091s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005522s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.016184s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000594s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000833s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:12:04+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.063454s][吞吐率：15.76req/s] [内存消耗：3,247.11kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000897s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005259s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.006719s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000478s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:12:14+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.084509s][吞吐率：11.83req/s] [内存消耗：3,295.82kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000921s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005838s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000470s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.014868s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000695s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000795s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:16:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.091260s][吞吐率：10.96req/s] [内存消耗：3,516.66kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001006s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006410s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000513s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005852s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001131s ]
+[ error ] [8]未定义数组索引: color[D:\wamp\www\tp5\runtime\temp\52731baa098adc4d9e6b9a52ae1324cb.php:68]
+---------------------------------------------------------------
+[ 2017-09-22T22:16:31+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.097762s][吞吐率：10.23req/s] [内存消耗：3,516.55kb] [文件加载：64]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006401s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005216s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000498s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000476s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001777s ]
+[ error ] [8]Use of undefined constant color - assumed 'color'[D:\wamp\www\tp5\runtime\temp\52731baa098adc4d9e6b9a52ae1324cb.php:68]
+---------------------------------------------------------------
+[ 2017-09-22T22:16:44+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.066066s][吞吐率：15.14req/s] [内存消耗：3,247.11kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001865s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005465s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.013019s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000607s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000543s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000479s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:17:02+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.068916s][吞吐率：14.51req/s] [内存消耗：3,247.11kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001066s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006060s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000742s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005564s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000595s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000496s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000468s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:17:24+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.057745s][吞吐率：17.32req/s] [内存消耗：3,246.17kb] [文件加载：56]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000918s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005303s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005931s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000827s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000438s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:17:31+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.090438s][吞吐率：11.06req/s] [内存消耗：3,349.37kb] [文件加载：62]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001026s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005970s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.014345s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000499s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000825s ]
+[ error ] [8]Use of undefined constant color - assumed 'color'[D:\wamp\www\tp5\runtime\temp\52731baa098adc4d9e6b9a52ae1324cb.php:68]
+---------------------------------------------------------------
+[ 2017-09-22T22:19:30+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.081317s][吞吐率：12.30req/s] [内存消耗：3,464.13kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005527s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000411s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005891s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000475s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000883s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:24:16+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.082515s][吞吐率：12.12req/s] [内存消耗：3,464.95kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001299s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005709s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000516s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.013062s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000579s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000533s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001058s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:25:51+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.079636s][吞吐率：12.56req/s] [内存消耗：3,465.78kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002068s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005479s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000478s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005617s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000663s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000952s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:28:53+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.085691s][吞吐率：11.67req/s] [内存消耗：3,297.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001023s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006949s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.016450s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000558s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000803s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:29:42+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.078173s][吞吐率：12.79req/s] [内存消耗：3,297.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005659s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.016773s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000454s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001215s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:30:02+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.078293s][吞吐率：12.77req/s] [内存消耗：3,297.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000987s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005413s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.006277s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000651s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000971s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:30:23+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.104246s][吞吐率：9.59req/s] [内存消耗：3,297.17kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.011570s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.015012s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000545s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.003137s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001662s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:30:27+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.074971s][吞吐率：13.34req/s] [内存消耗：3,297.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001340s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005343s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.014206s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000519s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001233s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:30:47+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.080492s][吞吐率：12.42req/s] [内存消耗：3,297.30kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001033s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005588s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.015135s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.001683s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000838s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:32:16+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.090073s][吞吐率：11.10req/s] [内存消耗：3,466.34kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000989s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005731s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000485s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.013974s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000479s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000615s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000596s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000868s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:33:00+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.089713s][吞吐率：11.15req/s] [内存消耗：3,465.01kb] [文件加载：60]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001056s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.007978s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000480s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.010484s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.002162s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000598s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000941s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:33:16+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/comwebsite.html
+[ info ] 127.0.0.1/tp5/web/index/index/comwebsite.html [运行时间：0.053441s][吞吐率：18.71req/s] [内存消耗：2,124.95kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'comwebsite',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->comwebsite[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index/view/default/public/website.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:36:54+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/user.html
+[ info ] 127.0.0.1/tp5/web/index/index/user.html [运行时间：0.055957s][吞吐率：17.87req/s] [内存消耗：2,198.81kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->user[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\user\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:37:04+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.084640s][吞吐率：11.81req/s] [内存消耗：3,296.69kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006152s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.013655s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000542s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000425s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:37:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/user.html
+[ info ] 127.0.0.1/tp5/web/index/index/user.html [运行时间：0.047377s][吞吐率：21.11req/s] [内存消耗：2,198.84kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->user[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\user\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:37:19+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.067902s][吞吐率：14.73req/s] [内存消耗：3,296.88kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001022s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005435s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.005267s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000644s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001579s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:37:22+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/user.html
+[ info ] 127.0.0.1/tp5/web/index/index/user.html [运行时间：0.057605s][吞吐率：17.36req/s] [内存消耗：2,199.38kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->user[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\user\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:39:38+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.076626s][吞吐率：13.05req/s] [内存消耗：3,297.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000990s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.005154s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.006775s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000603s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.001088s ]
+---------------------------------------------------------------
+[ 2017-09-22T22:39:50+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/desktop.html
+[ info ] 127.0.0.1/tp5/web/index/index/desktop.html [运行时间：0.082138s][吞吐率：12.17req/s] [内存消耗：2,125.66kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'desktop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->desktop[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\system\desktop.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:40:06+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/user.html
+[ info ] 127.0.0.1/tp5/web/index/index/user.html [运行时间：0.049214s][吞吐率：20.32req/s] [内存消耗：2,199.18kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->user[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\user\user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:55:33+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/desktop.html
+[ info ] 127.0.0.1/tp5/web/index/index/desktop.html [运行时间：0.052016s][吞吐率：19.22req/s] [内存消耗：1,969.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'desktop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->desktop[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\system\desktop.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T22:56:41+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.085545s][吞吐率：11.69req/s] [内存消耗：3,297.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001459s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006310s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.013466s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000854s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000706s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000591s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[ 2017-09-22T23:19:15+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.095167s][吞吐率：10.51req/s] [内存消耗：3,296.80kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001213s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.010125s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.006615s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000794s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000808s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000700s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000884s ]
+---------------------------------------------------------------
+[ 2017-09-22T23:31:49+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/desktop.html
+[ info ] 127.0.0.1/tp5/web/index/index/desktop.html [运行时间：0.096214s][吞吐率：10.39req/s] [内存消耗：1,969.73kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'desktop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->desktop[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\system\desktop.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T23:45:00+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/index
+[ info ] 127.0.0.1/tp5/web/index/index/index [运行时间：0.092463s][吞吐率：10.82req/s] [内存消耗：3,298.09kb] [文件加载：58]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\index.html [ array (
+  0 => 'menuInfo',
+  1 => 'desktopInfo',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001541s ] mysql:dbname=tp5;host=127.0.0.1;port=3306;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_menu_folder` [ RunTime:0.006046s ]
+[ sql ] [ SQL ] SELECT * FROM `blog_menu_folder` [ RunTime:0.000527s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `blog_desktop` [ RunTime:0.013829s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 1 ORDER BY `ordersrot` [ RunTime:0.000917s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 2 ORDER BY `ordersrot` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` WHERE  `status` = 1  AND `menupid` = 3 ORDER BY `ordersrot` [ RunTime:0.000495s ]
+[ sql ] [ SQL ] SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` LEFT JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 1  AND (  uid is null ) UNION ALL SELECT `openurl`,`iconurl`,`title`,`fai` FROM `blog_desktop` INNER JOIN `blog_user_desktop` ON `desktopid`=`id` WHERE  `status` = 1  AND `sysdef` = 0  AND `uid` = 1 [ RunTime:0.000985s ]
+---------------------------------------------------------------
+[ 2017-09-22T23:45:03+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/desktop.html
+[ info ] 127.0.0.1/tp5/web/index/index/desktop.html [运行时间：0.044989s][吞吐率：22.23req/s] [内存消耗：2,126.38kb] [文件加载：50]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'desktop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->desktop[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\system\desktop.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T23:45:13+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/desktop.html
+[ info ] 127.0.0.1/tp5/web/index/index/desktop.html [运行时间：0.038510s][吞吐率：25.97req/s] [内存消耗：1,969.67kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'desktop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->desktop[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\system\desktop.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-09-22T23:45:35+08:00 ] 127.0.0.1 127.0.0.1 GET /tp5/web/index/index/desktop.html
+[ info ] 127.0.0.1/tp5/web/index/index/desktop.html [运行时间：0.037902s][吞吐率：26.38req/s] [内存消耗：1,969.67kb] [文件加载：48]
+[ info ] [ LANG ] D:\wamp\www\tp5\think5011\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'desktop',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:55.0) Gecko/20100101 Firefox/55.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1/tp5/web/index/index/index',
+  'cookie' => 'PHPSESSID=1a5v9tvma7al3ttv5tm512vhr6',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'blog',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ RUN ] app\index\controller\Index->desktop[ D:\wamp\www\tp5\app\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\tp5\web/../app/index\view\index\system\desktop.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
